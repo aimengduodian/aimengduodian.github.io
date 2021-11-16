@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>排列组合</title>
+      <link href="/2021/11/16/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88/"/>
+      <url>/2021/11/16/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本排列组合问题："><a href="#基本排列组合问题：" class="headerlink" title="基本排列组合问题："></a>基本排列组合问题：</h2><p>①两个原理：  </p><ul><li>加法原理： 分类则加 -&gt; 每一类中的每一类方法都可以达到目的  </li><li>乘法原理： 分步则乘</li></ul><p>②排列组合：  </p><ul><li>排列：有序排列  </li><li>组合：无序组合</li></ul><p>③计算公式：</p><h2 id="高级排列组合问题："><a href="#高级排列组合问题：" class="headerlink" title="高级排列组合问题："></a>高级排列组合问题：</h2><p>①分组问题：  </p><ul><li><p>元素不同，组不同：一定不要乘Ann<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhezrjrzkj30gl09xjti.jpg" alt="image.png"></p></li><li><p>元素不同，组相同：平均分组法，一定要除Ann<br>如6本<code>不同</code>的书，<code>平均分</code>成3组 </p></li><li><p>元素相同，组不同：用插板法解题（把M个元素分成N组，每组至少1个元素，则有C(N-1)(M-1) 个分发）<br>eg：把7支<code>完全相同</code>的铅笔分给<code>甲、乙、丙</code>3人，<code>每人至少1支</code>，有多少分发</p><blockquote><p>7支笔中有六个空，插入两个板子，即可以将笔分为三组。</p></blockquote></li></ul><p>②错位排序：记住就行  </p><ul><li>3人 — 2种  </li><li>4人 — 9种  </li><li>5人 — 44种</li></ul><p>③相邻问题： 捆绑法<br>不相邻问题： 插空法</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhdhl1qjxj30kb05j41a.jpg" alt="image.png"></p><blockquote><p>每个车站都可以是起始车站，所以每个车站都可以发往六个车站。10 * 9 - 7 * 6 = 48，答案C</p></blockquote><p>例题2：<br>把20个苹果分给3个小朋友，每人至少分4个，可有多少种分法  </p><blockquote><p>用插板法。首先给没有小朋友3个苹果，剩下11个苹果。此时有10个空，插入两个板子可以分成3组。答案45</p></blockquote><p>把20个苹果分给3个小朋友，可有多少种分法  </p><blockquote><p>先给每个小朋友分-1苹果，此时有23个苹果。此时有22个空，插入两个板子可以分成3组。答案210</p></blockquote><p>例题3：<code>错位排序</code><br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhgbpt4b4j310c06cjtd.jpg" alt="image.png"></p><blockquote><p>3人 — 2种  4人 — 9种  5人 — 44种</p></blockquote><p>例题4：相邻问题（捆绑法）<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhgl6qb19j30kz07hwhv.jpg" alt="image.png"></p><p>例题5：不相邻问题（插空法）<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhgsmp9xtj30l3048q3j.jpg" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>工程问题</title>
+      <link href="/2021/11/16/%E5%B7%A5%E7%A8%8B%E9%97%AE%E9%A2%98/"/>
+      <url>/2021/11/16/%E5%B7%A5%E7%A8%8B%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><p>核心公式：<br>总工作量 = 工作效率 X 工作时间（w = e * t）  </p><p>两类题型：<br>①若给出工作时间：则总工作量设为工作时间的最小公倍数，并进一步求出其对应的工作效率<br>②若给出工作效率：则总工作量设为工作效率乘工作时间</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwgug3cfo6j30ur0eaaic.jpg" alt="image.png"></p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwguk795krj30tv0entgh.jpg" alt="image.png"></p><blockquote><p>同时消掉三个零，车子先跑15，换掉一个后轮，再跑15。将报废的后轮换掉，可以再跑15</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>利润问题</title>
+      <link href="/2021/11/15/%E5%88%A9%E6%B6%A6%E9%97%AE%E9%A2%98/"/>
+      <url>/2021/11/15/%E5%88%A9%E6%B6%A6%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><p>利润问题的两个公式：<br>①利润 = 售价 - 进价<br>②利润率 = 利润 / 进价</p><p>利润问题的两个考点：<br>①从售价的角度讲：多卖的钱就是多赚的钱，少卖的钱就是少赚的钱<br>②从进价的角度讲：多花的钱就是少赚的钱，少花的钱就是多赚的钱</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>例题1<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwga23d46rj30le0a5q7i.jpg" alt="image.png"></p><blockquote><p>1.首先设去年成本为100，则今年的为85。<br>2.设去年的利润为x，今年的利润为x+15，<code>从进价的角度，少花的钱就是多赚的钱</code>  </p></blockquote><p>例题2<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwgahm0cjij30vj0dodo9.jpg" alt="image.png"></p><p>例题3<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwgb11dbm5j30v90fpqdu.jpg" alt="image.png"></p><p>例题4<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwgbm4kq4fj30pw0dfjze.jpg" alt="image.png"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>当条件中<code>没有具体的量</code>，就要<code>设出具体的量</code>。当条件中<code>有具体的量</code>，就要设置<code>未知数x</code>    </li><li>利润问题中，已经卖出的对结果不会产生影响，不考虑已经卖出的，减少计算量</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>周期问题</title>
+      <link href="/2021/11/15/%E5%91%A8%E6%9C%9F%E9%97%AE%E9%A2%98/"/>
+      <url>/2021/11/15/%E5%91%A8%E6%9C%9F%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><ul><li>平年加1，闰日加2。每年有52个完整的1周。<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwfppvzvcoj30oz0dw41o.jpg" alt="image.png"></li></ul><p>应用： 如2021年11月15号是周一，求2025年11月15号是周几。</p><table><thead><tr><th align="center">日期</th><th align="center">周几</th><th align="center">加几日</th></tr></thead><tbody><tr><td align="center">2021.11.15</td><td align="center">周一</td><td align="center">5</td></tr><tr><td align="center">2025.11.15</td><td align="center">周六</td><td align="center"></td></tr></tbody></table><blockquote><p>2025到2021相隔4年，3个平年+3，1个闰日+2。所以加5天，周一加5天是周六</p></blockquote><ul><li>31天有4个完整周期加3，30天有4个完整周期加2</li></ul><p>应用： 如2021年6月3号是周四，那么2021年10月1号是周几</p><table><thead><tr><th align="center">月份</th><th align="center">天数</th><th align="center">加几日</th><th align="center">周几</th></tr></thead><tbody><tr><td align="center">六月3号</td><td align="center">30</td><td align="center">2</td><td align="center">周四</td></tr><tr><td align="center">七月3号</td><td align="center">31</td><td align="center">3</td><td align="center">周六</td></tr><tr><td align="center">八月3号</td><td align="center">31</td><td align="center">3</td><td align="center">周二</td></tr><tr><td align="center">九月3号</td><td align="center">30</td><td align="center">2</td><td align="center">周五</td></tr><tr><td align="center">十月3号</td><td align="center">31</td><td align="center">3</td><td align="center">周日</td></tr></tbody></table><blockquote><p>因此10月一号是周五</p></blockquote><ul><li>若某月有31天，则该月的前三天和后三天的星期相同。</li></ul><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwfp2oxaxej30p006vju2.jpg" alt="image.png"></p><blockquote><p>当我们移动扑克牌的张数是52的整倍数的时候，就能满足题目的要求。比如我们一次移动一张，52次后一共移动52张就满足要求。我们一次移动2张，26次后就移动了52张，满足要求。所以可以得出52n=10*（移动次数），移动次数=5.2n，次数是整数。所以n=5，答案B</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwfr0h3gfwj30pm0btjwz.jpg" alt="image.png"></p><blockquote><p>首先根据3月有31天，则该月的前三天和后三天的星期相同，周一有5天周二有4天，可以得出，31号是周一。四月一号是周二。</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwfrfcyqy8j30pi0800wn.jpg" alt="image.png"></p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwfryo023dj30px093add.jpg" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+            <tag> 整数特性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>集合问题</title>
+      <link href="/2021/11/14/%E9%9B%86%E5%90%88%E9%97%AE%E9%A2%98/"/>
+      <url>/2021/11/14/%E9%9B%86%E5%90%88%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<p>双集合问题</p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwevvpajz7j30v20fiahh.jpg" alt="image.png"></p><p>三集合问题</p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwevzth6onj30uy0gzajc.jpg" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+            <tag> 集合问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最值问题</title>
+      <link href="/2021/11/14/%E6%9C%80%E5%80%BC%E9%97%AE%E9%A2%98/"/>
+      <url>/2021/11/14/%E6%9C%80%E5%80%BC%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><p>明确各组元素是否相等，题目中没有说明各不相同，我们就认为可以相同。然后用平均数思维解题</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>例题1<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwelhs7jiqj30p809v451.jpg" alt="image.png"></p><blockquote><p>首先求出有多少分组，然后用平均数思维解题</p></blockquote><p>例题2<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwemunab88j30ox0doagv.jpg" alt="image.png"></p><blockquote><p>假设有100张选票，投选的总人次为320次。为了让无效票最低，我们先给每张票投选3人次等于300，还剩余20人次票没有投选，一张票最多投5人次，为了无效票最低，则无效的票都是投了5人次，所以无效票多两张，20/2=10张票无效。答案B</p></blockquote><p>例题2，将最高修改为最低。<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwemyswrhij30oq0efqcf.jpg" alt="image.png"></p><blockquote><p>解题思路同上，最低为27%</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+            <tag> 最值问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>不定方程</title>
+      <link href="/2021/11/14/%E4%B8%8D%E5%AE%9A%E6%96%B9%E7%A8%8B/"/>
+      <url>/2021/11/14/%E4%B8%8D%E5%AE%9A%E6%96%B9%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwejsolocij30gn07y74q.jpg" alt="image.png"></p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="一个方程"><a href="#一个方程" class="headerlink" title="一个方程"></a>一个方程</h3><ul><li>奇偶特性</li><li>整除特性</li><li>尾数法</li></ul><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwejzfn2ymj30of08edkp.jpg" alt="image.png"></p><blockquote><p>先用奇偶特性，后用尾数法确定答案</p></blockquote><h3 id="两个方程"><a href="#两个方程" class="headerlink" title="两个方程"></a>两个方程</h3><ul><li>第一类：用消元法、鸡兔同笼转化为一个方程</li></ul><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwek35frorj30pk0ayahm.jpg" alt="image.png"></p><blockquote><p>消元后，用奇偶特性解题</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwek6ql76cj30oc0bzwkd.jpg" alt="image.png"></p><blockquote><p>用鸡兔同笼思想消元后，用奇偶特性解题</p></blockquote><ul><li>第二类：已知两个方程，求第三个方程，用特值法</li></ul><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwek8lthrxj30ot08zjw0.jpg" alt="image.png"></p><blockquote><p>两个方程，三个未知数，说明x，y，z有无数的解。但是求解的方程的结果是唯一的。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+            <tag> 不定方程 </tag>
+            
+            <tag> 鸡兔同笼 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>鸡兔同笼</title>
+      <link href="/2021/11/13/%E9%B8%A1%E5%85%94%E5%90%8C%E7%AC%BC/"/>
+      <url>/2021/11/13/%E9%B8%A1%E5%85%94%E5%90%8C%E7%AC%BC/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><p>鸡兔同笼问题的最初题型：<br>鸡、兔同笼，共有头60个，足142只，求兔子有多少只（）？<br>A.10只  B.11只  C.12只  D.13只  </p><blockquote><p>我们将笼子中所有的动物都看作时鸡，60只鸡一共有120条腿，但是事实上是142条腿，142比120多出来22条腿，为什么多出来22条腿？因为一只兔子比每一只鸡两条腿。一只兔子多两条腿，一共多出来22条腿，就是11只兔子。</p></blockquote><ul><li>在鸡兔同笼问题中，将A看成B，求出来的就是A的数量。</li></ul><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>例1：<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwe00qspg3j30oh0digt7.jpg" alt="image.png"></p><blockquote><p>先用鸡兔同笼计算出下山的时间，然后算下山总时间，相减。</p></blockquote><p>例2：<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwe0pqr1hcj30nn04gmy7.jpg" alt="image.png"></p><blockquote><p>80元是200元门票数的两倍，我们可以将80和200看成120元一张的整体。然后40和120用鸡兔同笼方法计算。答案D</p></blockquote><p>用倍数的思维解题<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwe0b8izvwj30nk05s41m.jpg" alt="image.png"></p><blockquote><p>80元是200元门票数的两倍，可以得出两者和是3的倍数，总票数2000除3余2，所以40元的票数除3也余2。</p></blockquote><p>浓度问题，用鸡兔同笼思维解题<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwetbfuzesj317o0nr1bv.jpg" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+            <tag> 鸡兔同笼 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>视频转gif</title>
+      <link href="/2021/11/11/%E8%A7%86%E9%A2%91%E8%BD%ACgif/"/>
+      <url>/2021/11/11/%E8%A7%86%E9%A2%91%E8%BD%ACgif/</url>
+      
+        <content type="html"><![CDATA[<p>当看到心仪的视频，想要做成gif动图，下面很多种方式可以转换。<br>每种方式都有各自的优缺点。</p><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul><li>视频播放器自带插件</li><li>GifCam软件</li><li>ps软件</li></ul><h2 id="ps转gif步骤"><a href="#ps转gif步骤" class="headerlink" title="ps转gif步骤"></a>ps转gif步骤</h2><ul><li><p>导入视频<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwbjluj304g30qo0jzn2d.gif" alt="GIF.gif"></p></li><li><p>调整参数<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwbjlv7g4hg30zy0kq7wl.gif" alt="GIF2.gif"></p></li><li><p>导出视频<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwbjlxjltmg30qm0j64qq.gif" alt="GIF1.gif"></p></li></ul><h2 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h2><ul><li><p>视频播放器录制的gif<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwbijnsjumg306w03w1co.gif" alt="囍fin-000004-20211111210326.gif"></p></li><li><p>GifCam软件录制（录制效果也很好，软件使用非常简单）<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwbiqxtis3g30jq0b5npf.gif" alt="GIF.gif"></p></li><li><p>ps转化gif<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwbjh5el3zg31z4140qvm.gif" alt="未标题-1.gif"></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> gif </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>上岸村母题答案</title>
+      <link href="/2021/11/11/%E4%B8%8A%E5%B2%B8%E6%9D%91%E6%AF%8D%E9%A2%98%E7%AD%94%E6%A1%88/"/>
+      <url>/2021/11/11/%E4%B8%8A%E5%B2%B8%E6%9D%91%E6%AF%8D%E9%A2%98%E7%AD%94%E6%A1%88/</url>
+      
+        <content type="html"><![CDATA[<h2 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h2><h3 id="第一讲"><a href="#第一讲" class="headerlink" title="第一讲"></a>第一讲</h3><p>DCCDD<br>ABDDB</p><h3 id="第二讲"><a href="#第二讲" class="headerlink" title="第二讲"></a>第二讲</h3><p>DDBDB<br>CCA</p><h3 id="第三讲"><a href="#第三讲" class="headerlink" title="第三讲"></a>第三讲</h3><p>AACAD<br>BDCCC<br>D</p><h3 id="第四讲"><a href="#第四讲" class="headerlink" title="第四讲"></a>第四讲</h3><p>CDACC<br>CCBAD<br>C</p><h2 id="图形推理"><a href="#图形推理" class="headerlink" title="图形推理"></a>图形推理</h2><h3 id="第五讲"><a href="#第五讲" class="headerlink" title="第五讲"></a>第五讲</h3><p>AADDB<br>ACCDA<br>CADAD</p><h3 id="第六讲"><a href="#第六讲" class="headerlink" title="第六讲"></a>第六讲</h3><p>BDCAD<br>CCABD<br>ADAAA<br>BAADD</p><h3 id="第七讲"><a href="#第七讲" class="headerlink" title="第七讲"></a>第七讲</h3><p>DCDBB<br>C(选不能)DCAC<br>B</p><h3 id="第八讲"><a href="#第八讲" class="headerlink" title="第八讲"></a>第八讲</h3><p>ADAAC<br>DBDCD<br>DBDA</p><h3 id="第九讲"><a href="#第九讲" class="headerlink" title="第九讲"></a>第九讲</h3><p>ABADA<br>D ？DBD<br>B</p><h2 id="定义、类比"><a href="#定义、类比" class="headerlink" title="定义、类比"></a>定义、类比</h2><h3 id="第十讲"><a href="#第十讲" class="headerlink" title="第十讲"></a>第十讲</h3><p>DDBCD<br>ACDDC</p><h3 id="第十一讲"><a href="#第十一讲" class="headerlink" title="第十一讲"></a>第十一讲</h3><p>DBAAA<br>BDCBB</p><h2 id="资料分析"><a href="#资料分析" class="headerlink" title="资料分析"></a>资料分析</h2><h3 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h3><p>CACCB<br>CCABD</p><h3 id="第二节"><a href="#第二节" class="headerlink" title="第二节"></a>第二节</h3><p>DADD</p><h3 id="第三节"><a href="#第三节" class="headerlink" title="第三节"></a>第三节</h3><p>AABCB<br>CABAA</p><h3 id="第四节"><a href="#第四节" class="headerlink" title="第四节"></a>第四节</h3><p>CADAD<br>AAADA<br>√B</p><h3 id="第五节"><a href="#第五节" class="headerlink" title="第五节"></a>第五节</h3><p>BDBAC<br>CACA</p><h3 id="第六节"><a href="#第六节" class="headerlink" title="第六节"></a>第六节</h3><p>BBBBC<br>A</p><h3 id="第七节"><a href="#第七节" class="headerlink" title="第七节"></a>第七节</h3><p>DCCCB<br>B</p><h3 id="第八节"><a href="#第八节" class="headerlink" title="第八节"></a>第八节</h3><p>ADCCC<br>A</p><h3 id="第九节"><a href="#第九节" class="headerlink" title="第九节"></a>第九节</h3><p>AACB  </p><h3 id="第十节"><a href="#第十节" class="headerlink" title="第十节"></a>第十节</h3><p>BDADA<br>ACADB</p><h3 id="第十一节"><a href="#第十一节" class="headerlink" title="第十一节"></a>第十一节</h3><p>CCCDD<br>DA</p><h3 id="第十二节"><a href="#第十二节" class="headerlink" title="第十二节"></a>第十二节</h3><p>CCBCA<br>CBC</p><h3 id="第十三节"><a href="#第十三节" class="headerlink" title="第十三节"></a>第十三节</h3><p>CACCA<br>DB</p><h3 id="第十四节"><a href="#第十四节" class="headerlink" title="第十四节"></a>第十四节</h3><p>CBCB</p><h3 id="第十五节"><a href="#第十五节" class="headerlink" title="第十五节"></a>第十五节</h3><p>ADBAD<br>B</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 答案 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>空瓶换酒</title>
+      <link href="/2021/11/10/%E7%A9%BA%E7%93%B6%E6%8D%A2%E9%85%92/"/>
+      <url>/2021/11/10/%E7%A9%BA%E7%93%B6%E6%8D%A2%E9%85%92/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwa69748hvj30pi0atwhu.jpg" alt="image.png"></p><blockquote><p>空瓶换酒，题目中4个空酒瓶可以换1瓶啤酒。<br>假如我们手中有4个空瓶拿来换酒。<br>换后手中有1个瓶子和1瓶子酒。<br>少了3个空瓶单多了1瓶子酒。<br>因此三个空瓶=1瓶子酒<br>题目中有24个瓶子和24瓶子的酒。<br>一共可以喝24瓶子的酒+换的24/3=8瓶子的酒 = 32 瓶子的酒。</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwa6ccvz06j30p908fn1e.jpg" alt="image.png"></p><blockquote><p>购买了1656/9等于184个窗户。<br>将这184个窗户安装后，多出184个旧窗户。<br>每七个旧窗户换一个新窗户，安装后多出一个旧窗户。<br>等于每六个旧窗户更换一个窗户位。<br>184/4=30余下4个旧窗户没法安装。<br>一共安装了184 + 30 = 214</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>整数特性</title>
+      <link href="/2021/11/10/%E6%95%B4%E6%95%B0%E7%89%B9%E6%80%A7/"/>
+      <url>/2021/11/10/%E6%95%B4%E6%95%B0%E7%89%B9%E6%80%A7/</url>
+      
+        <content type="html"><![CDATA[<p>整数特性应用题型<br>当题干中出现比例、分数、百分数、倍数。</p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwa3q3iydwj30o30aggp5.jpg" alt="image.png"></p><blockquote><p>对于题目中一个比例，通过添加或者减少相同重量，变成另外一个比例。可以用上述方法快速解题。将比例转化为份数。</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwa4kiko7aj30p5096dl9.jpg" alt="image.png"></p><blockquote><p>当题目中出现百分数同时问题和百分数相关用整除特性解题</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwa4xce7d7j30tx08q43i.jpg" alt="image.png"></p><blockquote><p>题目中y既是850的倍数，同时也要满足100的倍数，所以A错</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwa6fr793jj30ox0dwn3k.jpg" alt="image.png"></p><blockquote><p>拆多少，装多少。拆7n+4</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwa6ifdyjgj30p307un1t.jpg" alt="image.png"></p><blockquote><p>另一种解题思维，比例思维</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwa76m0uwwj30pc08taew.jpg" alt="image.png"></p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwab6yozgxj30vg0hbn7v.jpg" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+            <tag> 整数特性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>图推</title>
+      <link href="/2021/11/10/%E5%9B%BE%E6%8E%A8/"/>
+      <url>/2021/11/10/%E5%9B%BE%E6%8E%A8/</url>
+      
+        <content type="html"><![CDATA[<p>收集一些自己没找出规律的题总结，加强记忆。</p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw9w9pnbglj30gt0figru.jpg" alt="image.png"></p><blockquote><p>九宫格的图推<br>1.规律方向：从左到右，从上到下，九个格子整体看，“s”形。<br>2.规律属性：数量（如第一加第二等于第三），曲直，开闭，对称等。<br>上一题就是开闭交替出现，答案C</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw9wdqdgl6j30gn0ewwkj.jpg" alt="image.png"></p><blockquote><p>考虑属性规律，发现对称，曲直，开闭都没有规律。<br>看数量规律，面数量没有规律，直线数没有规律。<br>第一个图，两条线，一个交点，一个锐角，零个面。<br>点线面没有规律，查锐角数，1、2、3、4、5、6… 答案B，九个锐角</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw9wmpnhz4j30mm05yn0j.jpg" alt="image.png"></p><blockquote><p>元素组成相同，数量不同，考虑元素是否可以等量替换。<br>看属性，看图形是否有方向性</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 图推 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 判断 </tag>
+            
+            <tag> 图推 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>比例思维</title>
+      <link href="/2021/11/10/%E6%AF%94%E4%BE%8B%E6%80%9D%E7%BB%B4/"/>
+      <url>/2021/11/10/%E6%AF%94%E4%BE%8B%E6%80%9D%E7%BB%B4/</url>
+      
+        <content type="html"><![CDATA[<p>比例思维应用题型</p><ol><li>当题干中出现比例、分数、百分数、倍数（优先考虑用整除特性、在考虑用比例思维）  </li><li>当题干中出现提高（降低）、增加（减少）等关键词</li></ol><p>【题 1】AB 两地间有县道连接，BC 两地间有高速公路连接，且 AB 间路程是 BC 间路程的3/4。郭某从 A 地开车匀速前往 B 地，到 B 地后以 AB 间 2 倍的速度开往 C 地，共用时 2 小时30 分。由 C 地返回 A 地时高速公路行驶速度不变，县道行驶速度比去程降低 1/3，则返程用时为（ ）？<br>A.2 小时 45 分 B.2 小时 50 分 C.3 小时 10 分 D.3 小时 15 分  </p><blockquote></blockquote><p>【题 2】某农场有 A、B、C 三个粮仓，原先粮食储量之比为 5:9:10，今年丰收后每个粮仓新增加的粮食储量相同，A、B 两个粮仓的储量之比变为 3:5，则今年丰收后三个粮仓的储存总量比原先增加（ ）？<br>A.12.5% B.15% C.17.5% D.20%  </p><blockquote></blockquote><p>【题 3】甲、乙、丙三人投资成立一家公司，初期共投入 700 万元。公司估值上涨 50%时三人进行了二期投资，甲投入了与其初期投资相同的金额，乙投入了其初期投资金额的 2倍，丙投入了其初期投资金额的 1/2，二期总投入刚好也是 700 万元，此时甲、乙、丙三人的持股比例为 5:14:16，那么初期投资乙比甲投入（ ）？<br>A.多 100 万元 B.多 50 万元 C.少 100 万元 D.少 50 万元  </p><blockquote></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+            <tag> 比例思维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分析推理</title>
+      <link href="/2021/11/09/%E5%88%86%E6%9E%90%E6%8E%A8%E7%90%86/"/>
+      <url>/2021/11/09/%E5%88%86%E6%9E%90%E6%8E%A8%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<p>考试这类题型主要是找切入点</p><ol><li>确定信息</li><li>重复信息</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 判断 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 判断 </tag>
+            
+            <tag> 分析推理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>议论文</title>
+      <link href="/2021/11/08/%E8%AE%AE%E8%AE%BA%E6%96%87/"/>
+      <url>/2021/11/08/%E8%AE%AE%E8%AE%BA%E6%96%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="郑岳峰九大理论"><a href="#郑岳峰九大理论" class="headerlink" title="郑岳峰九大理论"></a>郑岳峰九大理论</h2><p>论证型议论文<br>&emsp;&emsp;无论是写作哪种大文章，大文章光利用材料是不够的，需要在材料之外拥有良好的理论素养、知识背景、思想深度。<br>&emsp;&emsp;一方面，大文章利用材料的方式主观灵活，不拘一格，可以间接转化，论证型议论文以“意义”为侧重点，如果材料中“意义”不够多，可以把对策、问题转化为意义，或者超越材料之外主观发挥。（将对策转化为意义，可以采用有利于…、能够…、使得…，为——提供了——。如果将问题转化为意义，还可以加上改变、避免、扭转等词汇）<br>&emsp;&emsp;但一方面，好文章需要在材料基础上发挥出内容充实，有深度内涵的感觉，材料本身毕竟显得单薄、粗浅、琐碎、生硬，需要对粗浅的材料进行思想深度上的提炼发挥； 赋予材料以更好的思想内涵，需要对简单的材料进行内容上的拓展加工和引申，使其内容更为丰富饱满，需要在材料之外拥有良好的理论素养。</p><h2 id="对收入分配体制改革的意义，有利于调整收入差距与扩大内需"><a href="#对收入分配体制改革的意义，有利于调整收入差距与扩大内需" class="headerlink" title="对收入分配体制改革的意义，有利于调整收入差距与扩大内需"></a>对收入分配体制改革的意义，有利于调整收入差距与扩大内需</h2><p>&emsp;&emsp;（文章中心主题）能够——，为价值财富的创造提供了动力源泉/广阔空间/制度保障，对深化收入分配体制改革有着什么意义，为缩小调整城乡之间、区域之间、行业之间、不同社会群体之间的贫富差距提供了制度支撑/有益探索。而深化收入分配体制改革是提高劳动所得比重和增加城乡中低收入者收入的必然要求，为推进社会资源分配的合理化、公平化提供了有效途径，为实现共同富裕提供了制度基础。<br>&emsp;&emsp;（文章中心主题）有利于深化收入分配改革，而收入分配改革又能够增强普通居民消费能力，为扩大内需、改变对出口外需的过度依赖提供了的源泉动力，有利于消费、投资、出口三者之间的平衡。</p><h2 id="对简政放权的意义，有利于处理好政府与市场、政府与社会的关系，发挥市场的作用、非政府组织的作用"><a href="#对简政放权的意义，有利于处理好政府与市场、政府与社会的关系，发挥市场的作用、非政府组织的作用" class="headerlink" title="对简政放权的意义，有利于处理好政府与市场、政府与社会的关系，发挥市场的作用、非政府组织的作用"></a>对简政放权的意义，有利于处理好政府与市场、政府与社会的关系，发挥市场的作用、非政府组织的作用</h2><p>&emsp;&emsp;（文章中心主题）有利于——，能够让政府部门以敬畏之心行使权力，有权而不任性，对简政放权有着什么意义，是推进政府职能转变的内在要求和必然选择。进一步简政放权，其意义在于，一、能够减少政府对市场的干预，还权于市场，还权于社会，能够有效的改变政府部门过度干预、直接介入、包办垄断的传统职能模式，为激发更多的创业激情和干事激情提供宽松自由的社会环境，为政府主要承担起市场监管和公共服务等职能提供了制度保障；二、简政放权为降低制度性交易成本，激发市场活力提供了重要引擎，有利于深化行政审批制度改革，有利于通过“互联网+政务服务”，减少审批事项、压缩审批环节，简化办事程序，为让数据多跑路、让群众企业少跑腿提供了制度保障，为方便群众办事、提高政府服务效率提供了有效途径。行政审批制度改革牵一发动全身，纵向上可以撬动政府自身改革，能够提高政府治理能力，横向上能够撬动经济社会各领域的改革，有利于释放市场活力和创业激情，为充分发挥市场在资源配置中的决定性作用提供了广阔的空间；三、有利于促进社会治理一体化，为激发社会组织活力，为充分发挥民间社会组织在社会管理中的作用提供了广阔的空间，从而使得社会组织的“公益性、专业性、独立性、柔软性、灵活性”等方面的特点优势得到充分发挥，为促进公共治理的一体化提供了有益探索。</p><h2 id="对公共责任的意义："><a href="#对公共责任的意义：" class="headerlink" title="对公共责任的意义："></a>对公共责任的意义：</h2><p>&emsp;&emsp;（文章中心主题）能够——，是政府的公共责任所在，为大力推进基础设施和社会事业建设、提供各项公共服务、解决民生问题提供了有力保障，有利于扭转改变单纯追求经济增长、过度市场化的发展误区，为完善发展成果评价体系提供了倒逼机制、为改革政绩考核机制提供了道路方向，为幼有所育、学有所教、劳有所得、病有所医、老有所养、住有所居、弱有所扶提供了制度基础。<br>&emsp;&emsp;（文章中心主题）能够——，有利于政府坚持对生态文明的公共责任，为扭转以牺牲生态环境为代价权益换取一时发展的误区提供了政策指引，为纠正单纯以经济增长速度评定政绩的偏向提供了重要抓手。</p><h2 id="对技术创新、提高自主创新能力的意义"><a href="#对技术创新、提高自主创新能力的意义" class="headerlink" title="对技术创新、提高自主创新能力的意义"></a>对技术创新、提高自主创新能力的意义</h2><p>&emsp;&emsp;（文章中心主题）有利于——，对技术创新具有什么意义，为企业创新技术提供了倒逼机制。而技术创新是引领发展的第一动力，有利于改变资源消耗型和低成本劳动力密集型的传统生产方式。为建设现代化经济体系提供了技术支撑，为提升产业竞争力和国家综合实力提供了源泉动力。<br>&emsp;&emsp;（文章中心主题）能够——，有利于激发社会创造力，能够提高核心技术的自主创新能力，能够有效改变我国对外技术依赖度较高的局面，为打造民族自主品牌、实现大国崛起提供了技术支持，为建设科技强国、质量强国、数字中国、智慧社会提供了强大支撑。<br>&emsp;&emsp;（文章中心主题）为推进实体经济（工业制造、农业生产）、文化产业和互联网的深度融合提供了广阔空间，有利于通过互联网、大数据、人工智能等手段促进社会资源的整合、共享与协作。</p><h2 id="对法律法治的意义：实体法与程序法"><a href="#对法律法治的意义：实体法与程序法" class="headerlink" title="对法律法治的意义：实体法与程序法"></a>对法律法治的意义：实体法与程序法</h2><p>&emsp;&emsp;（文章中心主题）有利于——，对法治建设与程序的公开透明具有什么意义。法治是实现国家治理现代化的重要内容，是实现公平正义的基本途径。通过公平公正的实体法,能够合理规定公民的权利与义务、能够合理分配各种资源和利益、能够科学配置各类权力与责任, 实现实体内容上的分配正义；通过民主科学的程序法,制定能够充分反民意并为大多数人接受的程序规则,有利于从程序法上来配置资源、平衡利益、协调矛盾、缓解冲突、规范行为,实现程序规则上的公平正义。<br>&emsp;&emsp;（文章中心主题）能够增强法治意识，有利于增强政府部门和社会公众的程序正义意识，有利于在事关百姓（公众）的重大利益问题上，确保程序的公开透明，为法治建设提供了重要基础。而法治化的环境与思维，能够让人懂得如何尊重别人的权利，如何履行自己的义务，在涉及重大利益时，懂得尊重和保障对方的知情权、参与权，与对方进行充分的沟通与协商。法律程序的公开、公正、透明，既是依法行政的内在要求，又有利于增强社会公众的安全预期；既是制约防范国家权力滥用的有力屏障，又是保护公民个人权利不受非法伤害的防火墙。<br>&emsp;&emsp;（背景资料：“正当法律程序”是指“要求一切权力的行使在剥夺私人的生命、自由或财产时，必须听取当事人的意见，当事人具有要求听证的权利”，未经正当法律程序，不得剥夺任何人的生命、自由或财产，正当法律程序（DueProcessofLaw）有两个基本功能：一是防止公权力滥用，遏制腐败；二是保障人权，保护公民、法人和其他组织的合法权益不受公权力主体滥权、恣意行为侵犯。）</p><h2 id="对监管的意义："><a href="#对监管的意义：" class="headerlink" title="对监管的意义："></a>对监管的意义：</h2><p>&emsp;&emsp;（文章中心主题）使得——，对监管权力具有重要意义。制定权力清单、责任清单，为防止“乱作为”和“不作为”提供了制度框架，为规范政府权力行使提供了有效途径。<br>&emsp;&emsp;通过互联网+政务，面向社会公众,公布权力清单和责任清单，有利于清权、确权、制权、晒权，能够确保让权力运行在阳光之下，为加强对政府部门职权滥用或消极不作为的监管提供了制度保障。<br>&emsp;&emsp;全面公布权力清单和责任清单集中体现了政府自我革命的诚意和决心，有利于更好地处理政府和市场的关系，既能够压缩权力寻租的空间，释放市场活力和发展动力，又能够促进政府部门积极担当责任，为落实“法无授权不可为”，“法定职责必须为”的原则精神提供了制度保障。<br>&emsp;&emsp;（文章中心主题）能够——，有利于加强和改善市场监管，为促进市场经济健康有序发展、保障消费者权益、维护社会安全稳定提供了重要抓手。（一）为食品药品安全、安全生产、环境保护、劳动者权益保护、公共安全提供了有力保障，能够切实增强社会公众的安全感和政府的公信力。（二）有利于清理和废除妨碍全国统一市场和公平竞争的各种规定和做法，既是尊重市场规律的重要体现，又有利于反对垄断和不正当竞争，为促进市场的公平竞争提供了良好的营商环境，对深化供给侧结构性改革、激发市场活力具有重要意义。（竞争公平是市场经济的灵魂，不同的企业主体为消费者展开竞争，而这种竞争必须是充分的公平的，没有少数人的垄断和不正当竞争。）</p><h2 id="对思想观念创新及文化道德的意义"><a href="#对思想观念创新及文化道德的意义" class="headerlink" title="对思想观念创新及文化道德的意义"></a>对思想观念创新及文化道德的意义</h2><p>&emsp;&emsp;（文章中心主题）能够促进——，为落实践行以人为本的发展观提供了重要抓手，对社会的观念进步和思想解放具有重要意义，而思想解放的意义在于避免思维方式简单和观念僵化教条，为打破习惯观念的束缚提供了动力，为全面深化改革提供了精神上的源泉、为制度创新提供了文化上的支撑，为破除一切不合时宜的思想观念提供了方向上的指引。<br>&emsp;&emsp;（文章中心主题）有利于——，对传统文化的传承与弘扬具有什么意义。传统文化为民族认同提供了精神血脉、情感归属，有利于增强民族自豪感和自信心，是弘扬核心价值观、建设文化强国的重大任务与内在要求。文化为社会稳定和谐提供了重要纽带，为形成社会凝聚力提供了源泉动力，能够为民族复兴和大国崛起提供强大精神文化支撑。 </p><h2 id="对行政管理体制改革的意义："><a href="#对行政管理体制改革的意义：" class="headerlink" title="对行政管理体制改革的意义："></a>对行政管理体制改革的意义：</h2><p>&emsp;&emsp;（文章中心主题）有利于——，能够克服改变行政领域机构重叠、政出多门、职能冲突、责任不清等弱点；有利于改变部门之间条块分割、各自为政、相互隔离的状；有利于大数据时代促进部门之间的数据共享与信息互通，打破信息孤岛，使得企业群众办事只需提交一次信息，递交一次材料，这对行政管理体制改革有着重要意义；<br>&emsp;&emsp;而行政管理体制改革为实现更为繁重的社会治理任务提供了有力保障，为形成良好的社<br>合，跨部门式、跨地域似的解决重大复杂问题提供了制度支撑。 </p><h2 id="对民营企业发展与市场化改革的意义"><a href="#对民营企业发展与市场化改革的意义" class="headerlink" title="对民营企业发展与市场化改革的意义"></a>对民营企业发展与市场化改革的意义</h2><p>&emsp;&emsp;（文章中心主题）有利于保持战略定力，为民营企业发展与市场化改革提供坚定方向，使得民营经济创新源泉充分涌流，使得民营经济创造活力充分迸发，为发挥民营企业在创新创业方面的作用提供了广阔空间，有利于充分发挥民营企业产权清晰、活力四射、反应迅速、权责明确、富有激励性和创新精神等特点。<br>&emsp;&emsp;（文章中心主题）为加快完善社会主义市场经济体制提供了重要抓手，有利于完善产权制度和要素的市场化配置，为形成产权有效激励、要素自由流动、价格反应灵活、竞争公平有序、企业优胜劣汰的市场经济体制提供了有效途径，为推动资源配置依据市场规则、市场竞争实现效益最大化和效率最优化提供了制度保障。<br>&emsp;&emsp;（文章中心主题）为深化国有企业改革提供了倒逼机制/有效途径，有利于国有企业真正成为依法自主经营、自负盈亏、自担风险、自我发展的独立市场主体</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 申论 </category>
+          
+          <category> 议论文 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 申论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>策论文</title>
+      <link href="/2021/11/08/%E7%AD%96%E8%AE%BA%E6%96%87/"/>
+      <url>/2021/11/08/%E7%AD%96%E8%AE%BA%E6%96%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="郑岳峰九大理论"><a href="#郑岳峰九大理论" class="headerlink" title="郑岳峰九大理论"></a>郑岳峰九大理论</h2><p>决策型议论文</p><h2 id="收入分配体制改革，调整收入差距与扩大内需"><a href="#收入分配体制改革，调整收入差距与扩大内需" class="headerlink" title="收入分配体制改革，调整收入差距与扩大内需"></a>收入分配体制改革，调整收入差距与扩大内需</h2><p>&emsp;&emsp;深化收入分配体制改革，提高劳动报酬在初次分配中的比重，完善技术工人激励政策，实行以增加知识价值为导向的分配政策，着力增加农民收入。<br>&emsp;&emsp;完善以税收、社会保障、转移支付为主要手段的再分配调节机制，加大税收调节力度，调整缩小不同行业、不同地区、不同社会群体之间的收入差距，推进社会资源和收入分配的合理化、公平化。<br><code>（调整收入差距的三个主要措施：提高劳动报酬、完善再分配体制、加大税收调节。）</code><br>&emsp;&emsp;多渠道增加居民财产性收入，增强普通居民消费能力，扩大内需，把促进经济增长的动力由主要依靠出口外需、政府投资转向以内需和消费为主。<br><code>（扩大内需：增加居民财产性收入（微观主体）和转变经济增长动力（宏观主体）</code></p><h2 id="政府职能转变，如何处理好政府与市场、政府与社会的关系，发挥市场的作用、非政府组织的作用"><a href="#政府职能转变，如何处理好政府与市场、政府与社会的关系，发挥市场的作用、非政府组织的作用" class="headerlink" title="政府职能转变，如何处理好政府与市场、政府与社会的关系，发挥市场的作用、非政府组织的作用"></a>政府职能转变，如何处理好政府与市场、政府与社会的关系，发挥市场的作用、非政府组织的作用</h2><p>&emsp;&emsp;推进政府职能转变，正确定位政府职能角色，进一步简政放权，尊重市场的自我调节与社会生活的多样性，改变政府部门对社会生活和市场活动的过度干预、直接介入、要么一律封杀要么包办垄断的传统职能模式，减少政府对微观事务的管理，充分发挥市场在资源配置中的决定性作用，政府的主要职责是政策制定、市场监管、社会管理、公共服务。<br><code>（主要是运用正反对比的论证方式，指出过去政府职能存在的问题，以及明确政府的主要职责是什么，突出政府职能转变的方向。）</code><br>&emsp;&emsp;向市场放权、向社会放权、向基层放权。凡是市场能自行调节的就放给市场凡是市场能自行调节的就放给市场，凡是社会组织能自律管理的就放给社会，凡是基层管理更为方便有效的就放给基层，确保“放”出活力和动力。<br>&emsp;&emsp;一方面，深化行政审批制度改革，推进“五证合一”、“最多跑一次”改革，减少行政审批环节，压缩审批事项，简化审批手续，积极推行“互联网+政务服务”，通过让数据多跑路，换取群众和企业少跑腿甚至不跑腿。取消一批职业资格许可和认定事项,全面清理名目繁多的各种行业准入证、上岗证等, 破除制约企业和群众办事创业的体制机制障碍，降低制度性交易成本。 优化营商环境，政府要做到“有求必应、无事不扰”，激发市场活力和社会创造力，激发更多的创业激情和干事热情。<br>&emsp;&emsp;另一方面，激发社会组织活力，向社会放权，充分发挥社会团体、非政府组织在社会管理中的作用，将适合由社会组织提供的公共服务事项交由社会组织承担，支持和发展志愿服务组织，促进社会治理一体化，调动社会力量参与公共服务，充分社会组织的“公益性、专业性、独立性、灵活性、柔软性”等特点优势。 鼓励、引导民营企业和非盈利组织等非政府主体参与公共服务,打破政府包揽一切公共服务项目的格局，避免政府垄断公共服务而导致的机构臃肿、效率低下和开支激增的状况。<br>&emsp;&emsp;建立健全政府向社会力量购买公共服务机制，推广政府购买服务，凡属事务性管理服务，原则上都要引入竞争机制，通过合同、委托等方式向社会机构、社工组织购买服务。部分社会事务可以委托、放权给专业的第三方社会组织、社工机构，政府则负责经费提供、绩效管理、跟踪监管等，激发社会组织活力，而不必包办垄断，凡事亲力亲为。</p><h2 id="公共责任、避免过度市场化、唯市场化、坚持社会的公正、协调、可持续发展，坚持市场化与社会公益性质的统一"><a href="#公共责任、避免过度市场化、唯市场化、坚持社会的公正、协调、可持续发展，坚持市场化与社会公益性质的统一" class="headerlink" title="公共责任、避免过度市场化、唯市场化、坚持社会的公正、协调、可持续发展，坚持市场化与社会公益性质的统一"></a>公共责任、避免过度市场化、唯市场化、坚持社会的公正、协调、可持续发展，坚持市场化与社会公益性质的统一</h2><p>&emsp;&emsp;明确政府在……方面的公共责任，深化“放管服”改革，保障和改善民生，保护和改善生态环境，扭转改变单纯追求经济增长、过度市场化的发展误区，完善发展成果考核评价体系，纠正单纯以经济增长速度评定政绩的偏向。<br>&emsp;&emsp;一方面，坚持民生或公共服务领域的社会公益性质及其特殊性， 在重大的民生问题和公共服务领域，要以政府财政投入和公共支出为主，不应将责任推卸给市场和社会。大力推进基础设施和社会事业建设，提高公共服务质量。水电暖等公用事业的价格不应完全市场化，要坚持其公益属性，保障基本民生需求。确保政府在医疗、养老、教育等基本公共服务上的保底作用，要在幼有所育、学有所教、劳有所得、病有所医、老有所养、住有所居、弱有所扶上积极作为；全面建成覆盖全民、城乡统筹的社会保障体系。<br>&emsp;&emsp;另外一方面，坚持政府对生态文明和可持续发展的责任，加快转变发展方式，积极参与全球环境治理，推进节能减排，从单纯强调经济增长转向社会协调均衡发展，扭转以牺牲生态环境为代价换取一时发展的误区。建立健全绿色低碳循环发展的经济体系</p><h2 id="技术手段与生产方式的创新、自主研发能力，提高经济发展的技术含金量，提高劳动者的专业技能水平"><a href="#技术手段与生产方式的创新、自主研发能力，提高经济发展的技术含金量，提高劳动者的专业技能水平" class="headerlink" title="技术手段与生产方式的创新、自主研发能力，提高经济发展的技术含金量，提高劳动者的专业技能水平"></a>技术手段与生产方式的创新、自主研发能力，提高经济发展的技术含金量，提高劳动者的专业技能水平</h2><p>&emsp;&emsp;推进—技术创新、改进生产措施，淘汰落后工艺，改变资源消耗型和低成本劳动力密集型的传统生产方式，从要素驱动转向创新驱动，发挥技术创新作为经济主要推动力的作用。推动互联网、物联网、大数据、人工智能和实体经济深度融合，利用互联网、大数据推动共享经济的发展与社会资源的整合。<br>&emsp;&emsp;激发和保护企业家精神，鼓励更多社会主体投身创新创业。建设知识型、技能型、创新型劳动者大军。<br>&emsp;&emsp;深化科技体制改革，建立以企业为主体、市场为导向、产学研深度融合的技术创新体系，加强对中小企业创新的支持，促进科技成果转化。健全技术创新激励机制，打破行政主导和部门分割，建立主要由市场决定技术创新项目和经费分配、评价成果的机制。<br>&emsp;&emsp;提高—核心技术的自主研发能力，积极发展自主知识产权，强化自主品牌，改变对外技术依赖度较高的局面，避免他人以技术为手段进行要挟与控制。把科技自立自强作为国家发展的战略支撑.</p><h2 id="法律法治：实体法与程序法。"><a href="#法律法治：实体法与程序法。" class="headerlink" title="法律法治：实体法与程序法。"></a>法律法治：实体法与程序法。</h2><p>&emsp;&emsp;完善—立法，明确规定谁享有什么样的权利、谁承担什么样的义务以及严格界定违法行为的法律责任、处罚措施、增加违法成本，保障合法权利，确保法律权利的平等性、法律标准的统一性，运用法治思维和法治方式化解社会矛盾；<br>&emsp;&emsp;推进—法律程序的公开、公正、透明，在重大利益问题上尊重和保障社会公众的知情权、参与权，告知对方事实、理由以及依据，听取当事人的陈述、申辩和意见，通过举行听证会、发布意见征求稿、人大表决等方式，与当事人进行充分的沟通与协商，确保依法行政，增强社会公众的安全预期。 六、对权力的监管，要将权力关进监管的笼子里，同时要使政府对市场进行有效监管，政府不做直接介入的运动员，却应该做好裁判员。<br>&emsp;&emsp;全面建立和公布权力清单、责任清单，规范政府权力行使，改善执法方式，加强对政府部门职权滥用或消极不作为的监管。加强行政监察与审计监督，防止权力寻租，改革政绩考核机制，着力解决“形象工程”、“政绩工程”以及不作为、乱作为等问题。通过权力清单做到“法无授权不可为”， 通过责任清单做到“法定职责必须为”。<br>&emsp;&emsp;推行权力清单制度，从清权、确权，到晒权、制权，把权力关进制度的笼子，并晾晒到阳光下，既告诉群众政府拥有权力的数量、规模和边界，也告诉群众政府行使每一项权力的依据、流程和时限。<br>&emsp;&emsp;秉持包容审慎的监管原则，对新业态、新模式等要秉持包容的态度，不能“一禁了之”，鼓励创新，对违法违规行为，依法依规审慎监管，而不能放任不管，快构建事中事后监管体系。（1.安全监管）加大食品药品安全、安全生产、环境保护、劳动权益保障等重点领域的基层执法力量，建立安全预防和隐患排查机制；（2.反垄断和反不正当竞争）清理和废除妨碍全国统一市场和公平竞争的各种规定和做法，反对垄断和不正当竞争，保护市场经济的公平竞争；（3.信用监管）加强社会信用体系建设,充分发挥全国信用信息共享平台作用,推进实施守信联合激励和失信联合惩戒工作,加大对失信行为的曝光力度，积极运用大数据、云计算、物联网等信息技术,建立健全市场主体诚信档案、行业黑名单制度和市场退出机制。</p><h2 id="思想观念创新与文化道德建设。"><a href="#思想观念创新与文化道德建设。" class="headerlink" title="思想观念创新与文化道德建设。"></a>思想观念创新与文化道德建设。</h2><p>&emsp;&emsp;促进思想解放与观念创新，避免思维方式简单和观念僵化教条，打破习惯思维和主观偏见的束缚，研究新情况，解决新问题，坚决破除一切不合时宜的思想观念。<br>&emsp;&emsp;落实和践行以人为本的执政理念，坚持立党为公、执政为民。贯彻创新、协调、绿色、开放、共享的发展理念（十九大中提出的五大发展理念），树立和践行绿水青山就是金山银山的生态文明理念。</p><h2 id="行政管理体制改革。"><a href="#行政管理体制改革。" class="headerlink" title="行政管理体制改革。"></a>行政管理体制改革。</h2><p>&emsp;&emsp;推进行政管理体制改革，改变行政领域机构重叠、政出多门、职能冲突、责任不清或部门之间条块分割、各自为政、相互隔离的状况，成立跨部门的领导小组，加强职能整合，明确部门之间的责任分工，促进部门之间的沟通协作，形成良好的协调联动机制。<br>&emsp;&emsp;促进部门之间的数据共享与信息互通，让企业群众办事只需提交一次信息，递交一次材料，打破信息孤岛。基于数据共享交换平台，建立部门间信息共享集成机制，加强部门协作和信息互联互通。<br>&emsp;&emsp;积极探索跨部门综合执法。清除多重多头执法，提高综合执法效率，减轻企业负担。 </p><h2 id="民营企业发展与市场化改革"><a href="#民营企业发展与市场化改革" class="headerlink" title="民营企业发展与市场化改革"></a>民营企业发展与市场化改革</h2><p>&emsp;&emsp;坚持市场经济改革方向，支持民营企业发展，坚持“两个毫不动摇”。毫不动摇巩固和发展公有制经济，毫不动摇鼓励、支持、引导、保护非公有制经济发展，使市场在资源配置中起决定性作用，保护和激发市场主体活力，让民营经济创新源泉充分涌流，让民营经济创造活力充分迸发。把构建亲清新型政商关系的要求落到实处，把支持民营企业发展作为一项重要任务：（一）保护企业家人身和财产安全，稳定预期，弘扬企业家精神；（二）在市场准入、审批许可、经营运行、招投标、军民融合等方面，为民营企业打造公平竞争环境，给民营企业发展创造充足市场空间；（三）减轻企业税费负担，加大减税力度。推进增值税等实质性减税，对小微企业、科技型初创企业可以实施普惠性税收免除，加快推进涉企行政事业性收费零收费，降低企业成本；（四）解决民营企业融资难融资贵问题。要改革和完善金融机构监管考核和内部激励机制，把银行业绩考核同支持民营经济发展挂钩，解决不敢贷、不愿贷的问题。<br>&emsp;&emsp;积极稳妥从广度和深度上推进市场化改革，经济体制改革必须以完善产权制度和要素市场化配置为重点，实现产权有效激励、要素自由流动、价格反应灵活、竞争公平有序、企业优胜劣汰。（一）大幅度减少政府对资源的直接配置，推动资源配置依据市场规则、市场价格、市场竞争实现效益最大化和效率最优化。政府的职责和作用主要是保持宏观经济稳定，加强和优化公共服务，保障公平竞争，加强市场监管，维护市场秩序，弥补市场失灵。（二）完善主要由市场决定价格的机制。凡是能由市场形成价格的都交给市场，政府不进行不当干预。政府定价范围主要限定在重要公用事业、公益性服务，并且要提高透明度，接受社会监督，而普通市场领域，发挥市场形成价格的决定性作用。（三）推进产权制度改革，基本形成归属清晰、权责明确、保护严格、流转顺畅的现代产权制度（有恒产者有恒心）。一方面，鼓励保护民营企业发展，充分发挥民营企业产权清晰、激励性强等特点优势，依法保护企业家财产权，加快建立依法平等保护各种所有制经济产权的长效机制；另一方面，深化国有企业改革，通过公司制改革、并购重组、混合所有制、股权多元化、信托制度、集团上市等方式，形成符合市场经济特点的国有资产管理体制、现代企业制度和市场化经营机制，促使国有企业真正成为依法自主经营、自负盈亏、自担风险、自我发展的独立市场主体。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 申论 </category>
+          
+          <category> 策论文 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 申论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>削弱论证</title>
+      <link href="/2021/11/06/%E5%89%8A%E5%BC%B1%E8%AE%BA%E8%AF%81/"/>
+      <url>/2021/11/06/%E5%89%8A%E5%BC%B1%E8%AE%BA%E8%AF%81/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>使论点成立的可能性降低。<br>削弱方法：</p><p>针对论点：（抬杠思维）</p><ul><li>直接说论点不成立，或解释原因说论点不成立, 力度原则最强</li><li>当论点是A-》B的语意 -&gt; A且-B的选项为有力的削弱</li></ul><p>针对论证过程（拆桥思维）</p><ol><li><p>只有论点<br>a) 反对论点<br>b) 补充反面论据  </p></li><li><p>论据A -&gt; 论点B ：搭桥加强、拆桥削弱  </p></li><li><p>论据、论点是因果关系<br>a) eg：  相对于不踢足球的人，长期踢足球的人身体健康一些，因此踢足球有利于身体健康。    针对论点就是针对论证过程<br>b) 论据（因）    论点（果）</p><table><thead><tr><th align="center">依据</th><th align="center">示例</th></tr></thead><tbody><tr><td align="center">有因无果:</td><td align="center">喝酒会打嗝    /    喝酒没有打嗝</td></tr><tr><td align="center">无因有果:</td><td align="center">吃凉得胃痛     /    不吃凉得也胃痛</td></tr><tr><td align="center">倒置因果:</td><td align="center">踢足球有利于健康  /  不健康的往往不能踢足球。选项出现可直接选</td></tr><tr><td align="center">另有他因:</td><td align="center"></td></tr></tbody></table></li><li><p>否定隐含的必要条件:<br>选项出现对隐含的必要条件否定，为有力削弱，可直接选。<br>eg：为保护景区，禁止剧组近景区拍摄。隐含条件为，剧组拍摄破环环境。 </p></li></ol><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>【例 1】有些人正是因为吃了太多肉类和海鲜，畅饮了过多啤酒，导致尿酸水平升高，造成尿酸盐在关节和肾脏部位沉积，才使他们患上痛风。因此，<code>①患上痛风</code>，对于<code>②判断这些患者是否吃了太多肉类和海鲜，畅饮了过多啤酒</code>是一项必不可少的条件。<br>下列（ ）项如果为真，最能削弱上述断定。<br>A.有些人吃了太多的肉类和海鲜，畅饮了过多的啤酒，经检验的确患有痛风<br>B.有些人没有吃太多的肉类和海鲜，畅饮过多的啤酒，但是患有痛风<br>C.有些人没有吃太多的肉类和海鲜，畅饮过多的啤酒，也未患有痛风<br>D.有些人吃了太多的肉类和海鲜，畅饮了过多的啤酒，但是并未患有痛风  </p><blockquote><p>①是②必不可少的条件，② -&gt; ①。本题论点是一个箭头的推出关系，矛盾是②且-①。推出关系的矛盾是有力的削弱。答案D</p></blockquote><p>【例 2】动物药理实验表明，<code>白藜芦醇具有明显的软化血管作用</code>，可以抗血栓，对冠心病、高血脂有防治作用。而葡萄生长过程中，为防止灰色霉菌感染导致葡萄腐烂，会产生白藜芦醇。在葡萄酒发酵生产过程中，由于葡萄汁酶的作用，酒中白藜芦醇的数量明显增加。因此，<code>葡萄酒具有保健功效</code>。<br>以下哪项如果为真，最能质疑上述论证？<br>A.白藜芦醇想要发挥软化血管的作用，理论上需要连续两个月每天喝 1 斤葡萄酒<br>B.乙醇是一级致癌物，任何酒精饮料不论是否真有诸如软化血管之类的养生作用，最后都会明显降低饮用者的预期寿命<br>C.偏爱奶酪、芝士、黄油等高脂肪食物的法国人，因常饮富含白藜芦醇的葡萄酒，其冠心病发病率却低于其他西方国家<br>D.即使在动物实验中能确定白藜芦醇物质对动物有用，要证实白藜芦醇对人体健康的作用和安全性还必须进行大规模的人体试验  </p><blockquote><p>A该项指出理论上需要连续两个月每天喝1斤葡萄酒才能发挥白藜芦醇软化血管的作用，该操作在实际中很难实现，证明无法从白藜芦醇可以软化血管得出葡萄酒有保健功效，为拆桥项，可以削弱，<br>B该项指出酒精饮料不论是否有软化血管等养生作用（即酒精饮料不论是否具有保健功效），都会明显降低饮用者的预期寿命，讨论的是酒精饮料和预期寿命之间的关系，而论点讨论的是葡萄酒和保健功效之间的关系，预期寿命与保健功效无关，话题不一致，无法削弱</p></blockquote><p>【例 3】为什么青少年会更“热血”，更冲动，更容易冒险，有研究显示，这跟青少年<code>大脑前额叶皮层</code>的功能有关。前额叶皮层具有负责调控注意力、作出计划、理性思考、调控情绪的能力，这部分皮层一般要等到<code> 25 岁左右才能发育完全</code>。因此，<code>25 岁之前谈理智是没有意义</code>的。<br>以下各项如果为真，哪项最能质疑上述结论？<br>A.青少年时期的大脑中多巴胺的分泌很旺盛，使得青少年更喜欢新鲜刺激的游戏<br>B.婴幼儿时期大脑发育相对青少年时期更加幼稚和不成熟，但也能逐渐学会控制大小便<br>C.大脑有“用进废退”的现象，青少年大脑前额叶皮层可通过不断训练而促进其成熟<br>D.很多中年人也经常有冲动冒险、情绪失控的行为，前额叶皮层发育完全也并不意味着就一定很理智  </p><blockquote><p>题目答案在C和D之间有争议。我的答案是C<br>论据中“25岁发育完全”等同于C选项的“成熟”等同于“可以调控注意力、作出计划、理性思考、调控情绪”等同于“理智”。同义替换C为“青少年可以训练变得理智”，直接否定论点。<br>D选项。我个人认为，“青年人”，“中年人”都是指人的不同阶段，每个人都会经历这个阶段。用“中年人”的目的是为了说“人”的前额叶皮层发育完全但有不理智的情况，这是将“前额叶皮层发育”和“理智”的关系进行拆桥。<br>削弱题中，直接否定论点的强度大于拆桥。</p></blockquote><p>【例 4】某国的科研机构跟踪研究了出生于上世纪 50 至 70 年代的 1 万多人的精神健康状况，其间测试了他们在 13 岁至 18 岁时的语言能力、空间感知能力和归纳能力。结果发现，<code>在此期间语言能力远低于同龄人水平的青少年，成年后患精神分裂症等精神疾病的风险较高</code>。研究人员认为，<code>青少年期语言能力</code>的高低将是预测<code>成年后</code>精神疾病的重要指标。<br>以下哪项如果为真，能够质疑上述观点？<br>A.青少年期激素分泌水平异常，影响大脑发育，导致语言能力发展迟缓<br>B.患精神分裂症的青少年，其归纳能力相比语言能力的发展更加缓慢<br>C.许多精神健康的脑肿瘤患者在青少年时期也经常出现语言能力发展迟缓的问题<br>D.适当的教育可显著提高青少年的语言能力，但对中老年人影响不大</p><blockquote><p>A没有涉及到成年，B没有涉及到成年人，归纳能力无关项。<br>C举例削弱，举例说明因果不存在，有因无果。有青少年语言能力发展迟缓之因，没有成年后患精神疾病的果。<br>D选项没有谈论精神疾病情况。答案C</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 判断 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 判断 </tag>
+            
+            <tag> 削弱论证 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>两年复合增长率</title>
+      <link href="/2021/11/04/%E4%B8%A4%E5%B9%B4%E5%A4%8D%E5%90%88%E5%A2%9E%E9%95%BF%E7%8E%87/"/>
+      <url>/2021/11/04/%E4%B8%A4%E5%B9%B4%E5%A4%8D%E5%90%88%E5%A2%9E%E9%95%BF%E7%8E%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><p>给出第一年的增长率r1，给出第二年的增长率r2。两年的增长率r = r1 + r2 + r1 * R2</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>题1<br>2019 年 1～2 月，西部地区出口 310 亿美元，同比增长 26.9%，增速同比回落 43.5 个百分点。8 个省份同比增长，增速较快的宁夏、甘肃分别增长 1.6 倍和 1.4 倍。4 个省份由去年同期增长转为下降，<code>西藏</code>、贵州分别由<code>增长 7.2 倍</code>和 2.4 倍转为<code>下降 79.7%</code>和 50.2%。<br>2019 年 1～2 月，西藏自治区出口额约是 2017 年同期的多少倍：<br>A.0.2 B.0.6 C.1.7 D.8.2  </p><blockquote><p>根据题意可知，2018年的增长率为7.2 + 1 = 8.2，2019年的增长率为0.797，根据混合增长率公式可得R = 8.2 - 0.797 + （8.2 * - 0.797）约等于 8 - 0.8 + 8 * -0.8 = 0.8。 答案C。  </p></blockquote><blockquote><p>将2017年的量设置为1，则2018年的量为1 * 8.2 = 8.2，2019年的量为8.2*-0.2+ = 1.6+。 答案C</p></blockquote><p>题2<br>2018 年 3 月份，上海期货交易所当月电解铝 14103 元/吨，比上月下跌 2.3%，同比上涨1.0%。<br>某企业 2017 年 3 月和 2018 年 2 月以上海期货交易所当月均价分别购买价值 1280 万元的电解铝，则该企业第二次购买的量比第一次：<br>A 少不到 2% B.少 2%以上 C.多不到 2% D.多 2%以上  </p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw41av9v2tj313j0gonc2.jpg" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 增长率 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>年均增长率</title>
+      <link href="/2021/11/04/%E5%B9%B4%E5%9D%87%E5%A2%9E%E9%95%BF%E7%8E%87/"/>
+      <url>/2021/11/04/%E5%B9%B4%E5%9D%87%E5%A2%9E%E9%95%BF%E7%8E%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><p>① 计算总增长率R = B/A -1<br>② 根据r &lt; R/n ，排除错误选项<br>③ 找出恰当选项，用多年复合增长率计算公式代入，排除错误选项。</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>2014～2018 全国粮食产量（单位：亿公斤）</p><table><thead><tr><th align="center">2014</th><th align="center">2015</th><th align="center">2016</th><th align="center">2017</th><th align="center">2018</th></tr></thead><tbody><tr><td align="center">6396</td><td align="center">6606</td><td align="center">6604</td><td align="center">6616</td><td align="center">6579</td></tr></tbody></table><p>2015～2017 年三年，全国粮食总产量平均增长率约为：<br>A.0.08% B.1.06% C.1.14% D.3.4</p><blockquote><p>R = 6616/6396 -1 = 3.4%<br>r = 3.4%/3 = 1.14%  答案C</p></blockquote><blockquote><p>当年均增长率小于2%时，年均增长率等于总增长率的平均数（小的可以忽略不记）</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwbcyv1o61j30pl0ebjzz.jpg" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 增长率 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A加B等于C</title>
+      <link href="/2021/11/04/A%E5%8A%A0B%E7%AD%89%E4%BA%8EC/"/>
+      <url>/2021/11/04/A%E5%8A%A0B%E7%AD%89%E4%BA%8EC/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><p>A + B = C型的相关结论<br>定性分析：<br>① 和的增长率在中间<br>② 和的增长率靠向基期量大的数<br>③ 三者和的增长率，绝对不是三者增长率的平均数，除非三者的基期量相同</p><p>定量分析：<br>十字交叉法</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>例1：2018 年 3 月，国产品牌手机出货量 2699.5 万部，同比下降 29.0%；上市新机型 78 款，同比下降 36.6%。1～3 月，国产品牌手机出货量 7586.4 万部，同比下降 27.8%；上市新机型 190 款，同比下降 10.8%。<br>2018 年 1～2 月，国产品牌手机出货量同比约下降了：<br>A.25.5% B.26.6% C.27.1% D.28.4</p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw3fem1p1dj30f905zq46.jpg" alt="image.png"></p><blockquote><p>定性分析，1-2月的值大于-27，排除选项D。用十字交叉列式，48大于27，所以r+27.8 &gt; 1.2。r &gt; -26.6。 答案C</p></blockquote><p>例2：<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw3fmx4ephj30kq09swgz.jpg" alt="image.png"><br>在 2019 年底，全国水上运输船舶的总载客量同比增长多少?<br>A.0.5% B.2.2% C.6.6% D.7.3%</p><blockquote><p>定性分析，排除选项D，同时载客量的现期量比较小，排除C。对于三者和的增长率，有个错误选项是三者平均数，排除B。答案A</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 混合增长率 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>加强论证</title>
+      <link href="/2021/11/04/%E5%8A%A0%E5%BC%BA%E8%AE%BA%E8%AF%81/"/>
+      <url>/2021/11/04/%E5%8A%A0%E5%BC%BA%E8%AE%BA%E8%AF%81/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>增强论点成立的可能性</p><ul><li>论点</li><li>论据</li><li>论证过程（搭桥的过程）</li></ul><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>【例 1】研究人员发现一颗距离地球仅 16 光年的行星上具有<code>与地球相似的温度和气候条件</code>，因此很有可能在这颗行星上发现<code>生命存在的迹象</code>。<br>如果上述结论成立，需要下列哪项作为前提假设？<br>A.该行星上的生命存在条件与地球上的类似<br>B.该行星距离地球的距离越近越好<br>C.研究人员还需经过长期的观测才能发现这颗行星上的生命迹象<br>D.生物必须要在固定的温度和气候条件下才能存活  </p><blockquote><p>当提方式中有几类<br>1 前提、假设 为名词。<br>2 必须假设、需要假设 动词。<br>这类题目是选择“必要前提”的查找。必要前提是少不了的必要条件，有它不代表一定有结果的成立，没有结果一定不成立。  </p></blockquote><blockquote><p>题目中论据和结论是通过类比论证。类比论证双方可比，说明双方有更多的相同点，可以搭桥，搭桥是答案，不能搭桥，通过加“非”验证思考。答案A</p></blockquote><p>【例 2】今年入夏以来，全球持续出现高温天气。对于高温天气产生的原因，一种观点认为，入夏以来，<code>高温天气的出现是由全球气候变暖造成的</code>。在全球气候变暖的大背景下，高温这样的灾害性天气会有增多的趋势。反对者则认为高温天气的出现并不一定是由全球气候变暖造成的，<code>而是与大气环流特征的变化相关</code>。大气环流特征的变化会导致多种极端天气频繁地发生，包括高温天气。<br>以下哪项如果为真，最能支持第一种观点？<br>A.全球气候变暖是由大气环流特征变化导致的<br>B.高温天气是暖气团控制下的温度较高的炎热天气<br>C.全球气候变暖通过改变大气环流特征来改变高温等极端天气事件的强度和发生频率<br>D.气象学家们认为，造成持续高温天气的原因很复杂，既有直接原因，也有间接原因  </p><blockquote><p>对于同一种现象，分别从不同的原因上争议。这种题目的考察，有一种规律，支持某一方的同时往往削弱另一方，削弱某一方的同时，往往支持另一方。<br>在选项上构建方方的因果关系。<br>如：甲说A是因为B，乙说A是因为C。 支持甲，需给出B导致C，支持乙，需给出C导致B。</p></blockquote><blockquote><p>支持全球变暖，导致大气环流特征的改变是答案。答案D</p></blockquote><p>【例 3】某研究机构对 3 个品牌的老年代步车进行安全性碰撞实验。实验表明，<code>这 3 个品牌的代步车都无法在发生交通事故时保护驾驶人</code>。该机构因此认为：<code>老年代步车十分危险，政府应该禁止代步车上路，引导老年人驾驶普通汽车</code>。<br>以下选项最无法支持上述论断的是（ ）。<br>A.代步车的价格一般低于普通汽车<br>B.这 3 个品牌的代步车市场占有率极高<br>C.使用代步车的老人普遍拥有汽车驾驶资格<br>D.安全性是决定代步车能否上路行驶的首要因素  </p><blockquote><p>分析题目论证中存在的问题：<br>①3个品牌是否可以代表整个老年代步车<br>②安全性是上路的一个因素<br>③老年人可以驾驶普通汽车<br>解决上述问题就是加强，否定上述问题就是削弱</p></blockquote><blockquote><p>选项A中价格不是上述问题，是无关项。答案A</p></blockquote><p>【例 4】某市的志愿者管理采用注册制，其中活跃志愿者约占 20%。为进一步增强志愿者服务力量，<code>提高活跃志愿者数量</code>，该市管理部门制定了以下政策：<code>鼓励所有政府部门及公益组织的工作人员注册成为志愿者</code>。<br>以下属于该部门制定政策时的假设的是（ ）。<br>A.该城市还有大量的社会活动没有得到足够的志愿者支持<br>B.政府部门及公益组织的工作人员的志愿服务意愿都很强<br>C.一直以来该市制定的各项政策都得到了市民的积极响应<br>D.活跃志愿者的数量会随着注册志愿者人数的增加而增加  </p><blockquote><p>“方式目的”论证方式。加强的三中形式<br>①方式可以达到目的（有效）<br>②方式可行（办得到）<br>②方式有必要（其他的方式不行）<br>加强的强弱 ① &gt; ② &gt; ③</p></blockquote><blockquote><p>题目中方式可以达到目的的表述为：注册成为志愿者可以提交活跃志愿者数量。答案D</p></blockquote><p>【例 5】对某市第二中学初中部学生的调查发现，<code>拥有</code>数学学习机人数最多的班也是数学成绩最好的班。因此，<code>利用</code>数学学习机可以提高数学成绩。<br>以下哪项如果为真，最能加强上述结论？<br>A.拥有数学学习机的学生学习数学的积极性和主动性明显提高<br>B.拥有数学学习机人数最多的班也是<code>最会利用</code>数学学习机的班<br>C.随着数学学习机性能的不断改善，对提高学生数学成绩的作用越来越明显<br>D.拥有数学学习机人数最多的班里的同学，更多地利用数学学习机学习数学  </p><blockquote><p>选项A，补充论据加强（学习的积极性和主动性提高）。<br>选项B，“最会利用”不等于“用”，无关项。<br>选项C，补充论据，性能改善可以提高成绩。<br>选项D，搭桥拥有学习机的人利用学习机学习。答案D</p></blockquote><p>【例 6】地球表面大部分都被海洋覆盖，生命也诞生于海洋之中。然而，据估计，地球有 80%的物种生活在陆地上，而海洋中仅为 15%, 剩下的 5%生活在淡水中。研究者认为，<code>陆地栖息地的物理布局相对海洋可能更加支离破碎，是导致陆地物种更加多样化的主要原因之一</code>。<br>以下哪项如果为真，最能加强上述研究者的观点？<br>A.地球表面可分成热带、南温带、北温带、南寒带、北寒带五个温度带，各温度带物种差异性大，种类丰富<br>B.深海相对于有阳光照射的浅海岸地区而言，基本上像个冰箱，而且门已经关上很久，物种远不如浅海丰富<br>C.根据某群岛记录显示，随着时间推移，自然选择甚至可以把两个岛屿上相同物种的不同族群变成截然不同的物种<br>D.森林覆盖许多陆地，而树叶和枝干形成新的生态环境，海洋中的珊瑚也起同样作用，但覆盖海底的面积没那么大  </p><blockquote><p>研究者的观点是因果关系<br>因：陆地栖息地的物理布局支离破碎，果：陆地物种更加多样化。<br>论点是因果论证的结论，对因果关系进行加强，我们要肯定上述因果关系的成立。<br>①有因必有果<br>②无因无这个果<br>③排除其他原因<br>④不是倒置因果</p></blockquote><blockquote><p>选项A，温度带不是指陆地。无关项<br>选项B，谈论的深海和浅海，与陆地没有关系。无关项<br>选项C，补充论据加强<br>选项D，无关项  答案C</p></blockquote><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>多思考，找出选项错误的原因和选项考察的考点。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 判断 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 判断 </tag>
+            
+            <tag> 加强论证 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>高级放缩法</title>
+      <link href="/2021/11/03/%E9%AB%98%E7%BA%A7%E6%94%BE%E7%BC%A9%E6%B3%95/"/>
+      <url>/2021/11/03/%E9%AB%98%E7%BA%A7%E6%94%BE%E7%BC%A9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="理论基础"><a href="#理论基础" class="headerlink" title="理论基础"></a>理论基础</h2><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw2587urk0j30ha0bs77a.jpg" alt="image.png"></p><ol><li>当分子增长率r1大于分母增长率r2时，得出今年的比重比去年的比重大，比重上升。    </li><li>当分子增长率r1小于分母增长率r2时，得出今年的比重比去年的比重小，比重下降。  </li></ol><h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><ol><li><p>定性分析，判断今年的比重比去年上升还是下降，分子增长快，比重上升，分母增长快，比重下降。</p></li><li><p>定量分析，判断上升或下降了几个百分点。如两期比重差。</p></li></ol><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw26ccfomnj30m807jdjv.jpg" alt="image.png"></p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>例题1<br>2019 年全国农村网络零售额从 2014 年的 1800 亿元增加至逾 1.7 万亿元，占全国网络零售总额的 16.1%，较上年略有提升；同比增长 <code> r2: 19.1%</code>，高于全国网络零售总额增长率 2.6个百分点。<br>分地区看，东、中、西部和东北地区农村网络零售额分别占全国农村网络零售额的 76.6%、12.0%，9.4%和 2.0%，同比增长分别为 <code> r1: 19.8%</code>，17.1%，17.6%和 10.2%。  </p><p>2018 年，东、中、西部和东北地区农村网络零售额占全国农村网络零售额的比重分别为：<br>A.76.1%，12.2%，9.5%，2.2% B.76.6%，12.0%，9.4%，2.0%<br>C.77.1%，11.8%，9.3%，1.8% D.无法判断</p><blockquote><p>r1大于r2，分子的增长率大于分母。所以2018年的比值小于2019年的比值。2019年的比值为76.6%，所以2018年的值小于76.6%。答案A</p></blockquote><p>例题2<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw26y4kfwij30cj07gq47.jpg" alt="image.png"><br>2005～2013 年，全国技术合同成交金额增速超过 GDP 增速的年份有（ ）个<br>A.3 B.4 C.5 D.6</p><blockquote><p>逆向应用。今年的比重大于去年的比重，分子的增长率大于分母的增长率，今年的比重小于去年的比重，分子的增长率小于分母的增长率。<br>题目中 查找“占GDP比重”数据比上年上升的年份，就能找出技术的增速大于GDP的增速。答案D</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 增长率 </tag>
+            
+            <tag> 放缩法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>综合速算法</title>
+      <link href="/2021/11/03/%E7%BB%BC%E5%90%88%E9%80%9F%E7%AE%97%E6%B3%95/"/>
+      <url>/2021/11/03/%E7%BB%BC%E5%90%88%E9%80%9F%E7%AE%97%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="平方数"><a href="#平方数" class="headerlink" title="平方数"></a>平方数</h2><p>牢记1-30的平方数<br><img src="https://wx2.sinaimg.cn/mw690/005SoUZ5ly1gw1qvtwcdxj30kh06s3yu.jpg" alt="平方数"></p><blockquote><p>正向使用方法<br>24 * 26 = （25 + 1）<em>（25 - 1） = 624<br>23 * 27 = （25 + 2）</em>（25 - 2） = 621</p></blockquote><h2 id="“相同互补”型两数乘积"><a href="#“相同互补”型两数乘积" class="headerlink" title="“相同互补”型两数乘积"></a>“相同互补”型两数乘积</h2><p>积的头 = 头 * 头 + 相同的数<br>积的尾 = 尾 * 尾</p><blockquote><p>头相同，尾互补 42 * 48 = 2016 ( 4<em>4+4=20 )<br>尾相同，头互补 24 * 84 = 2016 ( 2</em>8+4=20 )<br>一侧相同，一侧互补 44 * 28 = 1232 (4*2 +4=12 )<br>首尾相同，首尾互补，不能用 24 * 48</p></blockquote><h2 id="首位是“1”的两位数乘积"><a href="#首位是“1”的两位数乘积" class="headerlink" title="首位是“1”的两位数乘积"></a>首位是“1”的两位数乘积</h2><ol><li>一个数与另一个数的个数做和</li><li>尾与尾做积</li><li>上述“和”与“积”错位相加</li></ol><blockquote><p>如14 * 19<br>第一步14 + 9 或 19 + 4 等于 23<br>第二步4 * 9 = 36<br>第三步230 + 36 = 266  </p></blockquote><h2 id="尾数是“1”的两位数乘积"><a href="#尾数是“1”的两位数乘积" class="headerlink" title="尾数是“1”的两位数乘积"></a>尾数是“1”的两位数乘积</h2><ol><li>头与头做积</li><li>头与头做和</li><li>上述“和”与“积”错位相加，最后补1</li></ol><blockquote><p>如41 * 91<br>第一步4 * 9 = 36<br>第二步4 + 9 = 13<br>第三步3600 + 130 + 1 = 3731</p></blockquote><h2 id="任意两位数乘积"><a href="#任意两位数乘积" class="headerlink" title="任意两位数乘积"></a>任意两位数乘积</h2><ol><li>头与头做积放在“头”</li><li>尾与尾做积放在“尾”</li><li>头于尾做积、尾与头做积，两积之和放“中间”</li><li>上述“头”、“尾”、“中间”组合即可</li></ol><p>eg: 35*63 = 2205</p><table><thead><tr><th align="center">步骤</th><th align="center">第一位</th><th align="center">第二位</th><th align="center">第三位</th><th align="center">第四位</th></tr></thead><tbody><tr><td align="center">①</td><td align="center">1</td><td align="center">8</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">②</td><td align="center"></td><td align="center"></td><td align="center">1</td><td align="center">5</td></tr><tr><td align="center">③</td><td align="center"></td><td align="center">3</td><td align="center">0</td><td align="center"></td></tr><tr><td align="center">④</td><td align="center"></td><td align="center"></td><td align="center">9</td><td align="center"></td></tr><tr><td align="center">⑤</td><td align="center">2</td><td align="center">2</td><td align="center">0</td><td align="center">5</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 速算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A乘B与A除B的增长率</title>
+      <link href="/2021/11/03/A%E4%B9%98B%E4%B8%8EA%E9%99%A4B%E7%9A%84%E5%A2%9E%E9%95%BF%E7%8E%87/"/>
+      <url>/2021/11/03/A%E4%B9%98B%E4%B8%8EA%E9%99%A4B%E7%9A%84%E5%A2%9E%E9%95%BF%E7%8E%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>A X B 型<br>2021年北京市房子的销售面积为A，相对于2020年的增长率r1。2021年北京市房子销售单价为B，相对于2020年增长率为r2。求2021年北京房子销售额（A x B）的增长率r。<br>r = r1 + r2 + r1 x r2</p><p>A / B 型<br>2021年国家粮食总产量为A，增长率为r1。2021年全国粮食的播总面积为B，增长率为r2。求2021年单位面积参量（A / B）的增长率r。<br>r = (r1 - r2) / (1 + r2)</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>例题1<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw29xt9dp1j30nb0eiq8g.jpg" alt="image.png"></p><p>例题2<br>2020 年某区限额以上第三产业单位共 674 家，实际收入 1059.1 亿元，同比增长 4.5%；实现利润总额 13.5 亿元，同比增长 11.9%；从业人员达到 58631 人，同比下降 4.3%。  </p><p>2020 年该区限额以上第三产业单位平均每名从业人员创造的利润比上年约<br>A.下降了 7% B.下降了 17% C.上升了 7% D.上升了 17%  </p><blockquote><p>A / B 型的增长率</p></blockquote><p>2020 年该区限额以上第三产业单位平均每名从业人员创造的利润比上年约<br>A.增长 2222 元 B.减少 2222 元 C.增长 3333 元 D.减少 3333 元  </p><blockquote><p>A / B 型的增长量</p></blockquote><h2 id="A-B-型的增长率、增长量与两期比重差的区别"><a href="#A-B-型的增长率、增长量与两期比重差的区别" class="headerlink" title="A / B 型的增长率、增长量与两期比重差的区别"></a>A / B 型的增长率、增长量与两期比重差的区别</h2><p>两期比重差例题<br>2019 国产工业机器人销量继续增长，全年累计销售 29144 台，较上年增长 16.8%，增速较上年提升。<br>从应用领域看，……，装配与拆卸机器人销售 0.37 万台，同比增长 129%。 </p><p>2019 年装配与拆卸机器人销量占国产工业机器人总销量比重比上年约：<br>A.下降了 2 个百分点 B.下降了 6 个百分点<br>C.提升了 2 个百分点 D.提升了 6 个百分点  </p><blockquote><p>两期比重差和A / B型的区别<br>两期比重差中A与B是包含关系，A是B的一部分，A除B的值是比重（百分数）。<br>A / B型中，A和B不是包含关系，A除B的值是确定的数值。</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw2anjxur1j30wf0cjqb6.jpg" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 增长率 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>除了又除</title>
+      <link href="/2021/11/03/%E9%99%A4%E4%BA%86%E5%8F%88%E9%99%A4/"/>
+      <url>/2021/11/03/%E9%99%A4%E4%BA%86%E5%8F%88%E9%99%A4/</url>
+      
+        <content type="html"><![CDATA[<p>除了又除顾名思义就是，A比B 除 C比D。 对于这类题型，我们要将数据先转化为乘法，A比B 成 D比C，然后具体问题具体分析。 主要在于数据处理。</p><p>例题 学习数据处理方式（截图村长帅气的脸）</p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw241c87iuj312n0kttlo.jpg" alt="image.png"></p><blockquote></blockquote><p>例题2： 逆向应用<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwg2y4dssrj30ot0jy45w.jpg" alt="image.png"></p><p>2010年地方财政收入占地区生产总值比重低于<code>全国平均水平</code>的经济圈是：<br>A.长三角<br>B.珠三角<br>C.京津冀<br>D.以上皆非</p><blockquote><p><code>全国平均水平</code>指的是<code>全国财政收入</code>/<code>全国地区生产总值</code>。题目中只给出了<code>地方财政收入A占全国A1比重</code>和<code>地区生产总值B占全国B1比重</code>。<br>所以 </p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>十字交叉法</title>
+      <link href="/2021/11/03/%E5%8D%81%E5%AD%97%E4%BA%A4%E5%8F%89%E6%B3%95/"/>
+      <url>/2021/11/03/%E5%8D%81%E5%AD%97%E4%BA%A4%E5%8F%89%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="三大应用"><a href="#三大应用" class="headerlink" title="三大应用"></a>三大应用</h2><p>① 在增长率问题中，今年率的变化反应去年量的变化<br>② 在浓度问题中，浓度的变化反应的是溶液的变化<br>③ 在平均分问题中，分数的变化反应的是人数的变化</p><h2 id="核心总结"><a href="#核心总结" class="headerlink" title="核心总结"></a>核心总结</h2><p> 在十字交叉法中， A/B的变化反应的是B的变化</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p> <img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw23opjox4j30lc0c1dm5.jpg" alt="image.png"></p><p> <img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwcujd3ry3j30pg0emgrz.jpg" alt="image.png"></p><blockquote><p>用十字交叉法解题，首先搞明白分子和分母，题目中A的单个成本是5，B的单个成本是4，因此分母分别是A、B的数量。我们要使其混合后的单个成本为4.8，即等于售价，才能保持不亏本。</p></blockquote><p> <img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwcushy9doj30jw06f77q.jpg" alt="image.png"></p><blockquote><p>先找混合项，报名选手，入选选手，落选选手。找比例分子和分母，用男生报名时人数4/7，入选男生人数8/13，落选男生选手人数3/7。然后做十字交叉，求入选和落选的人数比，根据入选人数91求出总人数。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 数量 </tag>
+            
+            <tag> 十字交叉法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>等速率增长</title>
+      <link href="/2021/11/03/%E7%AD%89%E9%80%9F%E7%8E%87%E5%A2%9E%E9%95%BF/"/>
+      <url>/2021/11/03/%E7%AD%89%E9%80%9F%E7%8E%87%E5%A2%9E%E9%95%BF/</url>
+      
+        <content type="html"><![CDATA[<p>等速率增长公式，2020的量为A，2021年的量为B，增长率为r，如果2022年的增长率也是r，求2022的量C。公式为C = B * B / A。使用这个公式，等速率增长必须是间隔相同的年份。</p><p>例题1<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw22y7u71wj30kw0cgjva.jpg" alt="image.png"></p><blockquote><p>根据公式水风核电产量=52.5 X 52.5 / 19.2 大于 52 X 52 / 20 =2704 / 20 = 135+。答案D </p></blockquote><p>例题2<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gw22hnh36aj30ji09btca.jpg" alt="母题4"></p><blockquote><p>2016年是2015年的两倍多。以此速率增长，则2017是2016的两倍多，2018是2017的两倍多，所以2018是2016的四倍多。2038 X 4 = 8100+。答案C</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 增长率 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基期比值</title>
+      <link href="/2021/11/01/%E5%9F%BA%E6%9C%9F%E6%AF%94%E5%80%BC/"/>
+      <url>/2021/11/01/%E5%9F%BA%E6%9C%9F%E6%AF%94%E5%80%BC/</url>
+      
+        <content type="html"><![CDATA[<p>牢记公式，A/B * （1+b%）/(1+a%)<br>解体思路</p><ol><li>找现期比值，判断选项是否可以排除选项</li><li>根据增长率判断大于1还是小于1</li></ol><p>2018 年 1～6 月份，我国社会消费品零售总额 156138 亿元，同比增长 10.3%。其中， 限额以上单位消费品零售额 71075 亿元，同比增长 7.5%。<br>2017 年 1～6 月份，<code>①限额以上单位消费品零售额</code>占<code>②全国社会消费品零售总额</code>的比重约为？<br>A.48.4% B.46.7% C.49.5% D.45.5%</p><blockquote><p>更加基期比值公式，忽略小数点同时保留前三位数，710/156 * 110/107。 凑数将107加3，则710加20，将乘法右边数字归一。此时等式变为730/156约等于46，此类方法为归一法。答案B</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 归一法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基期和差</title>
+      <link href="/2021/11/01/%E5%9F%BA%E6%9C%9F%E5%92%8C%E5%B7%AE/"/>
+      <url>/2021/11/01/%E5%9F%BA%E6%9C%9F%E5%92%8C%E5%B7%AE/</url>
+      
+        <content type="html"><![CDATA[<p>给出两个今年的量和增长率，求去年这两个量的和或差，公式比较简单，主要在分析。</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>（1）2019 年，我国以加工贸易方式出口铁路设备 146.2 亿元，增长 12.9%；以一般贸易方式 出口 111.3 亿元，增长 35.8%。<br>2018 年，我国铁路设备出口方式中，以<code>①加工贸易方式</code>出口比以<code>②一般贸易方式</code>出口（ ）。<br>A.约多 35 亿元 B.约多 47.5 亿元<br>C.约少 35 亿元 D.约少 47.5 亿元</p><blockquote><p>①②两个现期的差值为35，可以排除选项A和选项C。①基期的公式分子比②的大，分母比②的小。所以①的基期比②大，排除选项D。答案B</p></blockquote><p>（2）2018 年全年我国小麦产量 13019 万吨，增产 3.2%；玉米产量 22458 万吨，增产 4.1%。<br>2017 年，我国<code>①玉米产量</code>比<code>②小麦产量</code>多？（ ）<br>A.8642 万吨 B.8958 万吨<br>C.9429 万吨 D.9915 万吨</p><blockquote><p>使用凑整法处理数据，需要注意的是，增长率小于10%为宜，同时增长率越小误差越小。答案B</p></blockquote><p><img src="https://wx1.sinaimg.cn/mw690/005SoUZ5ly1gw02clch0vj30kn09zt96.jpg" alt="例题2"></p><p>（3）2019 年，我国全年完成邮电业务收入总量 43344 亿元，比上年增长 52.7%。其中，邮 政业务收入 7397 亿元，增长 45.7%；电信业务收入 35947 亿元，增长 54.2%。<br>2018 年我国<code>①电信业务收入</code>比<code>②邮政业务收入</code>多：<br>A.14235 亿元 B.16235 亿元<br>C.18235 亿元 D.20235 亿元</p><blockquote><p>对所有的数据取前三位，使用化同法处理数据。①分母减4凑成150，分子减9等于350。②分母加5凑成150，分子加25等于764。由于①比②式分子多去除一位，所以相减后为274/1.5前两位为18。答案C</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 化同法 </tag>
+            
+            <tag> 凑整法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>宪法</title>
+      <link href="/2021/11/01/%E5%AE%AA%E6%B3%95/"/>
+      <url>/2021/11/01/%E5%AE%AA%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>宪法主要了解<code>三大制度、赋予人民的六大权利、国家的六大机构</code></p><h2 id="宪法概述"><a href="#宪法概述" class="headerlink" title="宪法概述"></a>宪法概述</h2><ul><li>宪法被称为母法（束之高阁）<br> i. 宪法不能使用<br> ii. 宪法没有适用价值</li><li>公法对应的是私法<br> i. 公法是涉及公权力的法（如行政法）<br> ii. 私法是非涉及公权力的法（如民法）  </li><li>宪法规定归国家所有的三件<br> i. 矿藏、水流、城市土地  </li></ul><blockquote><p>根本 = 唯一<br>基本 = 一人之下，基本仅次于根本</p></blockquote><table><thead><tr><th align="center">a</th><th align="center">b</th></tr></thead><tbody><tr><td align="center">根本制度</td><td align="center">社会主义制度</td></tr><tr><td align="center">根本任务</td><td align="center">集中力量进行社会主义现代化建设</td></tr><tr><td align="center">公民的基本权利</td><td align="center">六大权利</td></tr><tr><td align="center">根本法的原因</td><td align="center">1、规定国家的最基本制度。2、具有最高法律效力。3、制定和修改比其他法律严格（表决：重大事项 通过，大于等于2/3。一般事项多数通过，大于1/2。（适用各种表决））</td></tr></tbody></table><h2 id="中国宪法历史"><a href="#中国宪法历史" class="headerlink" title="中国宪法历史"></a>中国宪法历史</h2><p><img src="https://wx3.sinaimg.cn/mw690/005SoUZ5ly1gvzeu7vbhcj30gu0bomxv.jpg" alt="中国宪法历史"></p><ol><li>共同纲领：</li></ol><ul><li>新中国第一部宪法性文件</li><li>制定时间1949.9。</li><li>制定单位政协会议（共产党和其他党派一起）<blockquote><p>i. 1949年10月成立的国家是不是社会主义国家？不是 是新民主主义国家（几个阶级专政）。<br>ii. 社会主义国家是无产阶级领导</p></blockquote></li></ul><ol start="2"><li>54宪法</li></ol><ul><li>第一届人大第一次会议（54年），诞生了中国第一部宪法54宪法</li><li>中国立宪机关（54年宪法的制定机关）：1954年的第一届人大一次会议 。之后人大只有修改宪法的权利。</li></ul><h2 id="宪法的四个基本原则"><a href="#宪法的四个基本原则" class="headerlink" title="宪法的四个基本原则"></a>宪法的四个基本原则</h2><ul><li>保障公民的私权利（保私）<br><code>人民主权原则</code><br><code>基本人权原则</code></li><li>限制政府的公权力（限公）<br><code>法治原则</code><br><code>民主集中制原则</code></li></ul><h3 id="人民主权原则："><a href="#人民主权原则：" class="headerlink" title="人民主权原则："></a>人民主权原则：</h3><ol><li>人民才是国家的主人， 国家的一切权利属于人民<br>eg：我国有一项制度充分体现着人民主权原则，国家的一切权利属于人民（人民代表大会制度）</li><li>人民代表大会制度： 我国的立法机关，我国的权利机关</li></ol><h3 id="基本人权原则："><a href="#基本人权原则：" class="headerlink" title="基本人权原则："></a>基本人权原则：</h3><ol><li>宪法中明确规定的赋予人民的6大人权</li><li>平等、教育等等</li></ol><h3 id="法治原则"><a href="#法治原则" class="headerlink" title="法治原则"></a>法治原则</h3><ol><li>依法治国、以德治国，两者并重，没有高低之分</li><li>以德治国（社会主义核心价值观建设，社会主义核心价值体系建设等）</li></ol><blockquote><p>民主集中制原则/权利制约原则，当选项中两个并存时，选择民主集中制原则。</p></blockquote><h2 id="国家基本制度（三大制度）"><a href="#国家基本制度（三大制度）" class="headerlink" title="国家基本制度（三大制度）"></a>国家基本制度（三大制度）</h2><p>政治制度（一般的政治制度）</p><ul><li>①政治制度</li><li>②选举制度</li></ul><p>经济制度</p><ul><li>③基本经济制度</li></ul><p>自治制度（特有的政治制度）</p><ul><li>④民族区域自治制度</li><li>⑤特别行政区制度</li></ul><h3 id="政治制度"><a href="#政治制度" class="headerlink" title="政治制度"></a>政治制度</h3><p> 一、国体和政体<br>（一）国体：<code>人民民主专政</code>制度<br>（二）政体：<code>人民代表大会</code>制度</p><ul><li>单一制政权国家 如中国</li><li>复合制政权国家 如美国（联邦政府）</li></ul><p> 二、政党制度<br>中国共产党领导的多党合作和政治协商制度</p><h3 id="选举制度（重点）"><a href="#选举制度（重点）" class="headerlink" title="选举制度（重点）"></a><code>选举制度（重点）</code></h3><p> <img src="https://wx3.sinaimg.cn/mw690/005SoUZ5ly1gvzyfadwuoj30ir067gm2.jpg" alt="选举制度"></p><p>选举制度的基本原则：<br>平等</p><ul><li>人人平等：城乡同比例 </li><li>地区平等：（直接选举）行政区域不论人口多少，都有代表 </li><li>民族平等：人口再少，要有一名代表</li></ul><p>普遍</p><ul><li>享有选举权条件: 中国公民、18 周岁、未被剥夺政治权利</li><li>例外: 精神病人（选举委员会确认后不列入选举名单）。因严重刑事犯罪被羁押，正在受侦查、起诉、审判的人，经检察院、法院决定，羁押期间停止行使选举权。</li></ul><p>直接、间接</p><ul><li>乡、县两级： 选民直接选举</li><li>地州及以上三级： 人大代表选举</li></ul><p>秘密<br> （1）投票秘密、自由。<br> （2）可委托选举，条件：外出，其他选民、书面，不超过三人，选委会同意。</p><h3 id="基本经济制度"><a href="#基本经济制度" class="headerlink" title="基本经济制度"></a>基本经济制度</h3><ol><li>经济制度：坚持<code>公有制为主体、多种所有制经济共同发展在</code>的基本经济制度</li><li>基础：生产资料的社会主义公有制，即全民所有制和劳动群众集体所有制；公有制是主体，非公有制是重要组成部分.</li><li>分配制度：<code>按劳分配为主体、多种分配方式并存</code></li><li>农村：农村集体经济组织实行<code>家庭承包经营为基础、统分结合</code>的双层经营体制</li></ol><p>公有制经济</p><ul><li>国家所有制、集体所有制、和混合多所有制中的国有和集体成分</li><li>国家政策：<code>公有制经济</code>是我国社会主义市场经济的<code>主体</code>。<code>国有经济</code>是国民经济的<code>主导力量</code>。国家<code>保障</code>国有经济的巩固和发展，对集体经济实行<code>鼓励、指导和监督</code></li><li>公有制主体地位还表现在自然资源归国家和集体所有<blockquote><p>🔢 <code>矿藏、水流、城市的土地属国家所有</code><br>🔢 <code>宅基地和自留地、自留山，属于集体所有</code><br>🔢 森林、山岭、草原、荒地、滩涂等自然资源，既可以属于国家多有，也可以由法律规定属集体所有。<br>🔢 《水法》第 3 条新规定</p></blockquote></li></ul><p>非公有制经济</p><ul><li>包括<code>个体经济、私营经济和三资企业等形式</code> </li><li>是社会主义市场经济的<code>重要组成部分</code></li><li>国家<code>鼓励、支持、引导</code>非公有制经济的发展，并对非公有制经济依法实行<code>监督和管理</code></li></ul><h3 id="民主区域自治制度"><a href="#民主区域自治制度" class="headerlink" title="民主区域自治制度"></a>民主区域自治制度</h3><p>民族自治地方的名称排序：除特殊情况外，按<code>地方名称、民族名称、行政地位</code>的顺序组<br>成。<br>（一）自治地方和自治机关<br> 自治地方：自治区、自治州、自治县。<code>民族乡不是自治地方</code>。<br> 自治机关：民族自治机关是指民族自治地方设立的国家权力机关和国家行政机关，即自治区、自治州和自治县的人大及人民政府。<code>不包括法院和检察院</code>。</p><blockquote><p>注：民族乡不是自治地方。自治地方的法院、检察院不是自治机关。 </p></blockquote><p>（二）民族自治地方自治机关的自治权<br>人大常委会的主任或副主任、政府的正职由自治公民担任。<br>（自治区主席、自治州州长、自治县县长由实行<code>区域自治的民族的公民</code>担任；民族自治地方的人民代表大会常务委员会应当由实行<code>区域自治的民族的公民担任主任或者副主任</code>。）</p><h3 id="特别行政区制度"><a href="#特别行政区制度" class="headerlink" title="特别行政区制度"></a>特别行政区制度</h3><p>特别行政区行使的权力：高度自治，依照法律的规定享有立法权、行政管理权、独立的司法权和终审权<br>（1）中央人民政府负责管理与特别行政区有关的<code>外交事务</code>；<br>（2）中央人民政府负责管理特别行政区的<code>防务</code>；<br>（3）中央人民政府任命特别行政区行政长官和行政机关的主要官员；<br>（4）全国人大常委会有权决定特别行政区进入紧急状态；<br>（5）全国人大常委会享有对特别行政区基本法的解释权；  </p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>党的会议，习大大报告五年执政的内容  （简称多少大，多少届几中全会。党的会议）</li><li>全国人民代表大会 ，简称（多少届几次会议）</li><li>政协会议（比人大早一天开），和人大统称两会</li><li>美好务实的政策是胡主席时代写入宪法的</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 常识 </category>
+          
+          <category> 法律 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 常识 </tag>
+            
+            <tag> 法律 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>类比推理</title>
+      <link href="/2021/10/31/%E7%B1%BB%E6%AF%94%E6%8E%A8%E7%90%86/"/>
+      <url>/2021/10/31/%E7%B1%BB%E6%AF%94%E6%8E%A8%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="匹配能力"><a href="#匹配能力" class="headerlink" title="匹配能力"></a>匹配能力</h2><p>关系分析能力</p><ul><li>概念关系</li><li>逻辑关系</li><li>语义语法关系</li></ul><h2 id="解题原则"><a href="#解题原则" class="headerlink" title="解题原则"></a>解题原则</h2><ul><li>先横着看，明确关系类型、顺序。</li><li>再纵看：明确选项与题目的亲密程度，越亲密越是正确答案</li></ul><h2 id="概念关系"><a href="#概念关系" class="headerlink" title="概念关系"></a>概念关系</h2><h3 id="全同关系：常识"><a href="#全同关系：常识" class="headerlink" title="全同关系：常识"></a>全同关系：常识</h3><table><thead><tr><th align="center">名称</th><th align="center">例子</th></tr></thead><tbody><tr><td align="center">多名</td><td align="center">芙蕖： 荷花：荷叶</td></tr><tr><td align="center">古今</td><td align="center">北平：北京</td></tr><tr><td align="center">中外</td><td align="center">罗曼蒂克：浪漫</td></tr><tr><td align="center">雅俗</td><td align="center">夫人：孩他娘</td></tr><tr><td align="center">别称</td><td align="center">羊城：广州</td></tr><tr><td align="center">字号</td><td align="center">苏子瞻：苏东坡：苏轼</td></tr></tbody></table><h3 id="包含关系："><a href="#包含关系：" class="headerlink" title="包含关系："></a>包含关系：</h3><ul><li>种属：“政府官员”：公务员</li><li>组成：内蒙古： 中国</li></ul><h3 id="交叉关系："><a href="#交叉关系：" class="headerlink" title="交叉关系："></a>交叉关系：</h3><blockquote><p>有的A是B，有的B是A。中药：植物</p></blockquote><h3 id="并列"><a href="#并列" class="headerlink" title="并列"></a>并列</h3><table><thead><tr><th align="center">名称</th><th align="center">例子</th></tr></thead><tbody><tr><td align="center">矛盾</td><td align="center">曲:直</td></tr><tr><td align="center">反对</td><td align="center">黑:白:其他</td></tr></tbody></table><h3 id="对应关系"><a href="#对应关系" class="headerlink" title="对应关系"></a>对应关系</h3><blockquote><p>功能对应：1) 主次 2) 属性</p></blockquote><h2 id="语法关系"><a href="#语法关系" class="headerlink" title="语法关系"></a>语法关系</h2><table><thead><tr><th align="center">关系</th><th align="center">例子</th></tr></thead><tbody><tr><td align="center">主谓</td><td align="center">小明：跑步</td></tr><tr><td align="center">动宾</td><td align="center">观看：影片</td></tr><tr><td align="center">主宾</td><td align="center">小明：影片</td></tr><tr><td align="center">偏正</td><td align="center">优美：影片</td></tr><tr><td align="center">状谓</td><td align="center">狂：吃</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 判断 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 判断 </tag>
+            
+            <tag> 类比推理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>定义判断</title>
+      <link href="/2021/10/31/%E5%AE%9A%E4%B9%89%E5%88%A4%E6%96%AD/"/>
+      <url>/2021/10/31/%E5%AE%9A%E4%B9%89%E5%88%A4%E6%96%AD/</url>
+      
+        <content type="html"><![CDATA[<h2 id="匹配能力"><a href="#匹配能力" class="headerlink" title="匹配能力"></a>匹配能力</h2><p>查找和匹配要素是否一直的能力，要素有：</p><ul><li>原因、结果</li><li>方式、方法、目的</li><li>定义、状语限定</li><li>主体、客体对象</li><li>且、或</li></ul><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><ol><li><p>统计数据分为定性数据与定量数据。定性数据包括分类数据和顺序数据。分类数据是指只能归于<code>某一类别的非数字型</code>数据，它是对事物进行分类的结果，用文字表述；顺序数据是指归于某一<code>有序类别的非数字型数据</code>。定量数据是指表现为<code>具体数字观测值</code>的数据。<br>①按城市规模可将城市分为特大城市、大城市、中等城市和小城市；<br>②婚姻状况：1-未婚，2-已婚，3-离异，4-丧偶；<br>③A 地到 B 地的距离为 200 公里，到 C 地为 320 公里，到 D 地为 100 公里；<br>④某医院建筑面积 37.5 万平方米，开放床位 3182 个，临床医生 687 个。<br>根据上述定义，关于以上 4 组数据的说法正确的是：<br>A.②④都是分类数据 B.②③④都是定量数据<br>C.①②都是顺序数据 D.仅②是分类数据</p><blockquote><p>①特大、大、中、小，顺序，②分类，③数据<br>答案D</p></blockquote></li><li><p>盘化生存：只凭借<code>①个人技能而不依赖组织</code>内的身份，<code>②自主决定是否参与社会协作</code>，完全由市场评判其个人价值的生存方式。下列不属于 U 盘化生存的是：<br>A.小韩大学毕业后，曾在多家培训机构当过数学老师，她总是感觉这样工作收入虽然高，但是太辛苦了，前不久，她没有同家人商量，就自作主张进了一所民办中学。<br>B.网络写手周女士根据自己之前的职场经历写出了多部网络畅销小说，多家著名网站慕名向她约稿，由于不愿受交稿日期的限制，她经常会拒绝一些约稿。<br>C.木匠老周进城打工十年多了，活儿干得很好，挣了不少钱，现在他有了自己的装修队，每天从早到晚都有人找他联系装修的事。<br>D.从单位辞职后，刘先生夫妇来到南方，将租下的一栋小楼改造成了民宿。在他们精心打理下，生意十分红火，客房一度需要提前两个月预定。  </p><blockquote><p>选项A，①-数学老师，②不匹配自主进民办中学（无法自主决定是否上课）<br>选项B，①-网络小说创作，②-经常拒绝约稿<br>选项C，①-装修工，②-自己的装修队<br>选项D，①-改造民宿管理能力，②-自己改造的民宿<br>选非题。答案A</p></blockquote></li><li><p>衬托是为了突出主要事物，用类似的事物或反面的、有差别的事物作陪衬的一种修辞方法。对比是指用相反或相似的两种事物互相比照，以共同表现某种思想或意境的一种修辞方法。二者的区别在于衬托是<code>①以次要事物为陪衬来突出主要事物</code>，而对比中体现的两种事物<code>②不分主次</code>。<br>根据上述定义，下列同时使用了上述两种修辞方法的是：<br>A.朱门酒肉臭，路有冻死骨<br>B.桃花潭水深千尺，不及汪伦送我情<br>C.蝉<code>噪</code>林逾<code>静</code>，鸟<code>鸣</code>山更<code>幽 </code><br>D.千里黄云白日曛，北风吹雁雪纷纷  </p><blockquote><p>选项A，没有主次，不是衬托。只有对比<br>选项B，比喻。将潭水深千尺比喻为作者对汪伦的情深，没有衬托和对比<br>选项C，噪静、鸣幽，对比。用禅噪次要事务衬托林静主要事务，用鸟鸣衬托山幽。<br>选项D，千里黄云，有夸张的修辞手法，没有对比和衬托<br>答案C</p></blockquote></li><li><p>类别化是指个体对自身或他人在社会中所处位置的感知和判断，这种感知和判断不仅基于现实社会中社会体制的不同分类标准，也基于自身与他人的社会比较过程。类别化分为社会类别化和自我类别化。社会类别化是个体基于共享的相似性把他人分为不同群体类别的主观心理过程。自我类别化指<code>个体从独立个体到群体</code>成员的过程是通过类别化而得以实现的，是通过<code>“去个性化”实现对群体的归属和成员身份的定位</code>。<br>根据上述定义，下列属于自我类别化的是：<br>A.只要每个人的素质提高了，我们整个国民的素质也就自然提高了，因此，重要的是首先做好自己<br>B.小明打算应聘公司某职位，而其父母则认为他更适合做公务员<br>C.同学们都说小倩长得像明星，做主播肯定有前途<br>D.王医生常常为自己所从事的职业感到无比自豪  </p><blockquote><p>选项A、B、C，没有满足去个性化</p></blockquote></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 判断 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 判断 </tag>
+            
+            <tag> 定义判断 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>成语积累</title>
+      <link href="/2021/10/31/%E6%88%90%E8%AF%AD%E7%A7%AF%E7%B4%AF/"/>
+      <url>/2021/10/31/%E6%88%90%E8%AF%AD%E7%A7%AF%E7%B4%AF/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p>相提并论：对应必须添加指代词，比如与之相提并论，和他相提并论等</p></li><li><p>琳琅满目：指代书籍和工艺品。比喻充满了美好、珍贵的事物</p></li><li><p>朝督暮责：指从早上到晚上不停的督促检查，形容督促检查非常严格</p></li><li><p>耳提面命：形容长辈教导，热心恳切</p></li><li><p>苦口婆心：善意而又耐心的劝导。通常指代劝导</p></li><li><p>和风细雨：比喻方式和缓不粗暴</p></li><li><p>延宕：拖延偏消极</p></li><li><p>李代桃僵：指代人受过</p></li><li><p>刚愎自用：意思是十分固执自信，不考虑别人的意见</p></li><li><p>掣肘chè zhǒu：原意指拉着胳膊，比喻有人从旁牵制，工作受干扰。</p><ul><li>暗中掣肘</li><li>由于受到掣肘，工作难以开展</li></ul></li><li><p>甚至：表示递进</p></li><li><p>束之高阁：比喻放在一旁，不去管它</p></li><li><p>视如拱璧：指看得极其宝贵</p></li><li><p>大行其道：指新潮事物流行，成为一种风尚</p></li><li><p>甚嚣尘上：后比喻消息到处流传，议论纷纷。今多用来形容某种传闻或谬论，十分嚣张。</p><ul><li>许多网路传言常传得甚嚣尘上, 但事后都证实只是谣言。</li></ul></li><li><p>鸠占鹊巢</p><ul><li>那位副理才来工作两个月，就俨然一副董事长的姿态，简直是鸠占鹊 巢嘛！</li><li> 做任何事情一定要自己努力，不可鸠占鹊巢，这样才能问心无愧。否则,鸠占鹊巢, 李代桃僵, 那屋内必是鸡飞狗跳, 不得安宁  </li></ul></li><li><p>李代桃僵： 用来比喻以此代彼或代人受过</p><ul><li>这件事本来是我的错，他却李代桃僵，为我承担了责任，使我很不好意思。</li><li>像你这种偷梁换柱、李代桃僵的做法，迟早会被明眼人识破。</li><li>警察一时疏忽，错抓了罪犯的弟弟，以致发生李代桃僵的情形。</li></ul></li><li><p>嬗变shàn biàn：指蜕变，更替。也指一种元素通过核反应转化为另一种元素或者一种核素转变为另一种核素。</p><ul><li>发生在物理世界的嬗变现象……</li></ul></li><li><p>昭然若揭:形容真相完全暴露出来，侧重真相大白</p></li><li><p>乱象丛生:指纷乱的现象不断出现</p></li><li><p>差强人意:指勉强使人满意</p></li><li><p>潜移默化:指人的思想、性格在不知不觉中受到感染、影响而发生变化</p></li><li><p>常备不懈:意思是时刻准备着，毫不忪懈</p></li><li><p>曲突徙薪:意思是把烟囱改建成弯的，把灶旁的柴草搬走。比喻事先采取措施，才能防止灾祸</p></li><li><p>众口铄金:形容舆论力量大，连金属都能熔化。比喻众口一词可以混淆是非。铄（shuò）：熔化</p><ul><li>【近义词】积毁销骨、人言可畏</li></ul></li><li><p>根深蒂固：多指观念、思想较牢固，中性词 </p></li><li><p>积重难返：多指长时间形成的恶习，不好改变，贬义词 </p></li><li><p>舍本逐末：“舍本”要舍弃一些东西 </p></li><li><p>本末倒置：“本”“末”都要，只是颠倒次序14 </p></li><li><p>南辕北辙：多指一个主体的行动和目的相反 </p></li><li><p>背道而驰：主语一般是 2 个，其中一个主体背离“正道” </p></li><li><p>分道扬镳：两者分开 </p></li><li><p>未雨绸缪：事前，采取措施，有所行动 </p></li><li><p>居安思危：事前，思想层面，做好准备 </p></li><li><p>防微杜渐：事中，小的苗头，及时剔除 </p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 常识 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 常识 </tag>
+            
+            <tag> 成语 </tag>
+            
+            <tag> 实词 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>增长量计算和比较</title>
+      <link href="/2021/10/31/%E5%A2%9E%E9%95%BF%E9%87%8F%E8%AE%A1%E7%AE%97%E5%92%8C%E6%AF%94%E8%BE%83/"/>
+      <url>/2021/10/31/%E5%A2%9E%E9%95%BF%E9%87%8F%E8%AE%A1%E7%AE%97%E5%92%8C%E6%AF%94%E8%BE%83/</url>
+      
+        <content type="html"><![CDATA[<p>题目中给出现期量和增长率求增长量。比如给出2021年的量B，2021年的增长率b%，求2021年的增长量。<br>Δ=B-B/(1+b%)=B<em>b%/(1+b%)。<br>b%百划分为m/n后可以得出<br>Δ=B</em>（m/(n+-m)）</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>2019 年上半年，B 市批发和零售业实现增加值 1190.6 亿元，同比增长 7.7%，增幅比 上年同期扩大 7.1 个百分点。<br>2018 年上半年批发和零售业实现增加值同比增量约为（ ）？<br>A.6.6 B.11.8 C.79.0 D.85.1</p><blockquote><p>2018年的增长率为7.7-7.1=0.6，所以2018年的现期量小于1190.6。根据增长量公式，2018年的增长量=1190.6<em>0.6%/100.6% &lt; （1200</em>0.6%=7.2）/100.6%。因此Δ2018&lt;7.2。只有选项A满足条件，答案A</p></blockquote><h2 id="二十法"><a href="#二十法" class="headerlink" title="二十法"></a>二十法</h2><p>1/9=11.1%，1/10=10%, 1/11=9.09%。从上面的式子我们可以看出，在9%~11%之间我们可以使用20减，进行百划分。</p><ul><li>当选项差距小的时候可以使用</li><li>适用范围仅限9%到11%之间</li></ul><table><thead><tr><th align="center">9%~11%</th><th align="center">百分数</th><th align="center">分数</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">9.2%</td><td align="center">1/10.8</td></tr><tr><td align="center">1</td><td align="center">9.5%</td><td align="center">1/10.5</td></tr><tr><td align="center">2</td><td align="center">9.7%</td><td align="center">1/10.3</td></tr><tr><td align="center">3</td><td align="center">10.3%</td><td align="center">1/9.2</td></tr><tr><td align="center">4</td><td align="center">10.5%</td><td align="center">1/9.5</td></tr><tr><td align="center">4</td><td align="center">10.8%</td><td align="center">1/9.2</td></tr></tbody></table><h3 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h3><p>2018 年 6 月份，城镇消费品零售额 23082 亿元，同比增长 10.5%；<br>2018 年 6 月份，城镇消费品零售额比上年同期增加（ ）？<br>A.380 亿元 B.2169 亿元 C.1193 亿元 D.2193 亿元</p><blockquote><p>B和D选项差距很小，10.5%用20法约等于1/9.5。根据增长量公式计算23082除以10.5 = 219*。答案D</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 增长量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>增长率的计算和比较</title>
+      <link href="/2021/10/30/%E5%A2%9E%E9%95%BF%E7%8E%87%E7%9A%84%E8%AE%A1%E7%AE%97%E5%92%8C%E6%AF%94%E8%BE%83/"/>
+      <url>/2021/10/30/%E5%A2%9E%E9%95%BF%E7%8E%87%E7%9A%84%E8%AE%A1%E7%AE%97%E5%92%8C%E6%AF%94%E8%BE%83/</url>
+      
+        <content type="html"><![CDATA[<h2 id="题目1"><a href="#题目1" class="headerlink" title="题目1"></a>题目1</h2><ul><li>年均增长率快慢=总增长率快慢</li></ul><p><img src="https://wx3.sinaimg.cn/mw690/005SoUZ5ly1gvxreql1pij30no0ixgo8.jpg" alt="母题05" title="题目1"></p><blockquote><p>首先排除C，D选项，全国数据这些综合数据一定是在中间位置，不可能是最快或最慢。用总增率快慢进行比较城镇和乡村数据。选B</p></blockquote><h2 id="题目2"><a href="#题目2" class="headerlink" title="题目2"></a>题目2</h2><p><img src="https://wx4.sinaimg.cn/mw690/005SoUZ5ly1gvxrf28juij30ms0budh3.jpg" alt="母题06" title="题目2"></p><blockquote><p>题目中2015年到2014年增长了15,2016到2015增长了45是15的3倍，但是两年的基期相差不大，排除D选项2015年。2016年到2017年增长量36，分子比2016年小，分母比2016年大，排除B选项2017年。同理排除A选项2018年。答案C</p></blockquote><h2 id="题目3"><a href="#题目3" class="headerlink" title="题目3"></a>题目3</h2><p><img src="https://wx2.sinaimg.cn/mw690/005SoUZ5ly1gvy88nl588j30ox0jtacu.jpg" alt="母题08" title="题目3"></p><blockquote><p>忽略小数点，取前三位数做比较。城市的分子最大分母最小，答案B。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 增长率 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A比A加减B比较</title>
+      <link href="/2021/10/30/A%E6%AF%94A%E5%8A%A0%E5%87%8FB%E6%AF%94%E8%BE%83/"/>
+      <url>/2021/10/30/A%E6%AF%94A%E5%8A%A0%E5%87%8FB%E6%AF%94%E8%BE%83/</url>
+      
+        <content type="html"><![CDATA[<p>A/A+B 或 A/A-B 的大小比较，可以等价为A/B的大小比较</p><h2 id="例题1"><a href="#例题1" class="headerlink" title="例题1"></a>例题1</h2><p>截至 2017 年末，全国农村贫困人口为 3046 万人，比上年末减少 1289 万人；分三大 区域看，2017 年东、中、西部地区农村贫困人口全面减少。东部地区农村贫困人口 300 万 人，比上年减少 190 万人；中部地区农村贫困人口 1112 万人，比上年减少 482 万人；西 部地区农村贫困人口 1634 万人，比上年减少 617 万人。</p><p>2017 年末，农村贫困人口较上年末下降最快的是（ ）？<br>A.东部地区 B.中部地区 C.西部地区 D.全国</p><blockquote><p>首先排除D选项，全国是混合选项，一定是介于几个数值之间。问题为2017年农村贫困人口（B）与2017年贫困人口下降数（A）加贫困人口数（B），等价与A/B。因此选项A为190/300=0.5+,B选项为482/1112=0.5-，C选项为617/1634=0.5-。答案选A</p></blockquote><h2 id="例题2"><a href="#例题2" class="headerlink" title="例题2"></a>例题2</h2><p>2018 年末全部金融机构本外币各项存款余额 155.5 万亿元，比年初增加 15.7 万亿元， 其中人民币各项存款余额 150.6 万亿元，增加 14.9 万亿元。全部金融机构本外币各项贷 款余额 112.1 万亿元，增加 12.7 万亿元，其中人民币各项贷款余额 106.6 万亿元，增加 12.6 万亿元。</p><p>2018 年末，以下各项存贷款余额增长最快的是？（ ）<br>A.本外币各项存款余额 B.人民币各项存款余额<br>C.本外币各项贷款余额 D.人民币各项贷款余额</p><blockquote><p>根据问题“增长最快”得出求增长率，题目求的是增长量（A）和现期量（B）减增长量（A）的比值的大小，等价于增长量（A）和现期量（B）的比值大小。选项A为15.7/155.5比10%大一点点，选项B为14.9/150.6小于10%，选项C是12.7/112.7大于10%，选项D是12.6/106.6大于10%。排除A，B。 C和D分子几乎相同，D的分母小，选项D最大。答案D</p></blockquote><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><ul><li>若给出两个部分，则一部分占整体的比重完全等价于一部分除以另外一部分</li><li>若给出增长量和现期量，则增长量除以现期量代表增长率的快慢</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 增长率 </tag>
+            
+            <tag> 部分占整体 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>乘除法比较</title>
+      <link href="/2021/10/29/%E4%B9%98%E9%99%A4%E6%B3%95%E6%AF%94%E8%BE%83/"/>
+      <url>/2021/10/29/%E4%B9%98%E9%99%A4%E6%B3%95%E6%AF%94%E8%BE%83/</url>
+      
+        <content type="html"><![CDATA[<h2 id="“乘除法比较”题目"><a href="#“乘除法比较”题目" class="headerlink" title="“乘除法比较”题目"></a>“乘除法比较”题目</h2><p>资料分析中，我们会遇到A*B或A/B的值的比较，选最大最小的题目。一般情况题目很简单，也很容易列式子。所以题目的难点在对数的分析上。</p><table><thead><tr><th align="center">A除B型</th><th align="center">A乘B型</th></tr></thead><tbody><tr><td align="center">直除法</td><td align="center">比较A和B哪个增长快，增长快的大</td></tr><tr><td align="center">放缩法</td><td align="center">统一A或B的数据，然后比较大小</td></tr><tr><td align="center">差分法</td><td align="center"></td></tr><tr><td align="center">化同法</td><td align="center"></td></tr></tbody></table><h2 id="直除法"><a href="#直除法" class="headerlink" title="直除法"></a>直除法</h2><p>所谓直除法，就是字面意思直接相除比较</p><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><p><img src="https://wx4.sinaimg.cn/mw690/005SoUZ5ly1gvx1yrpai8j30p70detav.jpg" alt="资料母题1" title="题1"></p><blockquote><p>1月份 3.50/10.91 ，忽略小数点可以得出首位比3大一点  35/(11*3) &gt; 1，以此类推，二月份3+，三月份3-，四月份3+。 答案选C</p></blockquote><h2 id="放缩法"><a href="#放缩法" class="headerlink" title="放缩法"></a>放缩法</h2><p>所谓放缩法，就是比如要证明不等式A &lt; B成立，有时可以将它的一边放大或缩小，寻找一个中间量，如将A放大成C，即A &lt; C，后证C &lt; B，由此得出A &lt; B，这种证法便称为放缩法。</p><blockquote><p>在资料分析中，应用较多的是A/B和C/D比较大小，我们可以通过比较ABCD的大小排除部分选项。如当A &gt; C且B &lt; D时，则A/B一定大于C/D。</p></blockquote><h3 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h3><p><img src="https://wx4.sinaimg.cn/mw690/005SoUZ5ly1gvx1yrpai8j30p70detav.jpg" alt="资料母题1" title="题1"></p><blockquote><p>三月份3.17分母在同类型数据中是最小的， 11.07分子大于一月份和二月份的同类型数据，由此可以排除一月份和二月份。由三月到四月的数据可以发现，分母的增长率远低于分子的增长率，因此三月&lt;四月，答案选C</p></blockquote><h2 id="差分法"><a href="#差分法" class="headerlink" title="差分法"></a>差分法</h2><p>两个分数作比较时，若其中一个分数的分子与分母都比另外一个分数的分子与分母分别仅仅大一点，这时候使用“直除法”、“化同法”经常很难比较出大小关系，而使用“差分法”却可以很好地解决这样的问题。</p><h3 id="基础定义"><a href="#基础定义" class="headerlink" title="基础定义"></a>基础定义</h3><p>在满足“适用形式”的两个分数中，我们定义分子与分母都比较大的分数叫“大分数”，分子与分母都比较小的分数叫“小分数”，而这两个分数的分子、分母分别做差得到的新的分数我们定义为“差分数”。例如：324/53.1与313/51.7比较大小，其中324/53.1就是“大分数”，313/51.7就是“小分数”，而(324-313)/(53.1-51.7)=11/1.4就是“差分数”。</p><h3 id="作用准则"><a href="#作用准则" class="headerlink" title="作用准则"></a>作用准则</h3><p>“差分数”代替“大分数”与“小分数”作比较：<br>1、若差分数比小分数大，则大分数比小分数大；<br>2、若差分数比小分数小，则大分数比小分数小；<br>3、若差分数与小分数相等，则大分数与小分数相等。<br>比如上文中就是“11/1.4代替324/53.1与313/51.7作比较”，因为11/1.4&gt;313/51.7（可以通过“直除法”或者“化同法”简单得到），所以324/53.1&gt;313/51.7。</p><h3 id="特别注意"><a href="#特别注意" class="headerlink" title="特别注意"></a>特别注意</h3><p>一、“差分法”本身是一种“精算法”而非“估算法”，得出来的大小关系是精确的关系而非粗略的关系；<br>二、“差分法”与“化同法”经常联系在一起使用，“化同法紧接差分法”与“差分法紧接化同法”是资料分析速算当中经常遇到的两种情形。<br>三、“差分法”得到“差分数”与“小分数”做比较的时候，还经常需要用到“直除法”。<br>四、如果两个分数相隔非常近，我们甚至需要反复运用两次“差分法”，这种情况相对比较复杂，但如果运用熟练，同样可以大幅度简化计算。</p><h3 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h3><p><img src="https://wx1.sinaimg.cn/mw690/005SoUZ5ly1gvx1yxtq5bj30p10lhac4.jpg" alt="资料母题5" title="题2"></p><p> 题目解题思路为科技论文数除比重，首先排除C选项。C选项和B选项相比，分子大分母小，所有C选项比值一定大于B选项。然后简化数据：</p><ul><li>A选项：49/44</li><li>B选项：57/54</li><li>D选项：71/58</li></ul><blockquote><p>A选项和B选项相比，B是“大分数”，A是“小分数”，所以B-A后的“差分数”为8/10 大于小分数A，所以排除A选项。<br>同样的方法将B和D做比较，排除D选项。答案选B</p></blockquote><h2 id="化同法"><a href="#化同法" class="headerlink" title="化同法"></a>化同法</h2><p>化同法，是比较分数大小时，将其中一个分数的分子（或分母）化成与另一个分数的分子（或分母）相同或相似，以便快速判断两者大小关系的方法。</p><h3 id="适用环境"><a href="#适用环境" class="headerlink" title="适用环境"></a>适用环境</h3><p>两个分数比较大小，一个分数的分子、分母都比另一个分数的分子、分母要大，而且大很多。</p><h3 id="使用原则"><a href="#使用原则" class="headerlink" title="使用原则"></a>使用原则</h3><p>化同法的前提：两个分数的分子（或分母）能够被化成相同或者相似。<br>化同法的结论：当分母相同或相似时，分子大的分数值大；当分子相同或相似时，分母大的分数值小。</p><h3 id="具体实例"><a href="#具体实例" class="headerlink" title="具体实例"></a>具体实例</h3><p>比较1/3和27/80的大小。<br>将两个分数的分子化同，则：1/3=27/81&lt;27/80</p><h3 id="例题-3"><a href="#例题-3" class="headerlink" title="例题"></a>例题</h3><p><img src="https://wx3.sinaimg.cn/mw690/005SoUZ5ly1gvx1z290baj30ob0mn0uu.jpg" alt="资料母题7" title="题3"></p><h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>考公我看的是上岸村的视频，虽然看老师讲题看的很嗨，但是自己做题就做不出感觉。究其原因还是练习的少，思考的少，后面多总结多练习。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资料 </tag>
+            
+            <tag> 放缩法 </tag>
+            
+            <tag> 差分法 </tag>
+            
+            <tag> 化同法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VLOOKUP函数</title>
+      <link href="/2021/10/17/VLOOKUP%E5%87%BD%E6%95%B0/"/>
+      <url>/2021/10/17/VLOOKUP%E5%87%BD%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<p>成都的公务员报名，每天都有两次公布报考缴费人数比例，这样可以有效避免报考人数扎堆。对我这种学渣，肯定是要选择报考人数少的。在选择的时候发现，一个一个的查找数据太麻烦，因为涉及到好几个表格。为了节省时间和方便比较那就要用到excel的vlookup函数公式了。</p><h2 id="函数定义"><a href="#函数定义" class="headerlink" title="函数定义"></a>函数定义</h2><blockquote><p>VLOOKUP函数是Excel中的一个纵向查找函数，它与LOOKUP函数和HLOOKUP函数属于一类函数，在工作中都有广泛应用，例如可以用来核对数据，多个表格之间快速导入数据等函数功能。功能是按列查找，最终返回该列所需查询序列所对应的值；与之对应的HLOOKUP是按行查找的。</p></blockquote><p>这是百度百科的定义，我这学渣是看的云里雾里的，只能慢慢理解消化了。定义看不懂，会用就行，说不定用着用着就明白了。</p><h2 id="参数定义"><a href="#参数定义" class="headerlink" title="参数定义"></a>参数定义</h2><ul><li>Lookup_value 为需要在数据表第一列中进行查找的数值。Lookup_value 可以为数值、引用或文本字符串。当vlookup函数第一参数省略查找值时，表示用0查找。</li><li>Table_array为需要在其中查找数据的数据表。使用对区域或区域名称的引用。</li><li>col_index_num为table_array 中查找数据的数据列序号。col_index_num 为 1 时，返回 table_array 第一列的数值，col_index_num 为 2 时，返回 table_array 第二列的数值，以此类推。如果 col_index_num 小于1，函数 VLOOKUP 返回错误值 #VALUE!；如果 col_index_num 大于 table_array 的列数，函数 VLOOKUP 返回错误值#REF!。</li><li>Range_lookup为一逻辑值，指明函数 VLOOKUP 查找时是精确匹配，还是近似匹配。如果为FALSE或0，则返回精确匹配，如果找不到，则返回错误值 #N/A。如果 range_lookup 为TRUE或1，函数 VLOOKUP 将查找近似匹配值，也就是说，如果找不到精确匹配值，则返回小于 lookup_value 的最大数值。应注意VLOOKUP函数在进行近似匹配时的查找规则是从第一个数据开始匹配，没有匹配到一样的值就继续与下一个值进行匹配，直到遇到大于查找值的值，此时返回上一个数据（近似匹配时应对查找值所在列进行升序排列）。如果range_lookup 省略，则默认为1。</li></ul><h2 id="结果出现-N-A的情况"><a href="#结果出现-N-A的情况" class="headerlink" title="结果出现#N/A的情况"></a>结果出现#N/A的情况</h2><p>参考<a href="http://www.360doc.com/content/19/1205/20/66005516_877693931.shtml">blog</a></p><ul><li>查找的数值不存在，关联表中没有对应的数据</li><li>参数错误</li><li>数据源第二个参数没有使用绝对引用，使得选中区域范围发生变化</li><li>第一个参数或者第二个参数选中的区域存在空格，将空格替换</li><li>查找值第一个参数与查找区域第二个参数匹配的内容类型不一致</li><li>存在非打印字符</li></ul><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>在关联查询的时候一直出现#N/A，这是什么鬼？参数都是正确的啊！后面才知道原来第二个参数Table_array选中的范围第一列必须是第一个参数Lookup_value相匹配的列。第三个参数col_index_num的范围是第二个参数table_array选择的区域。</li><li>如果查询的关联数据不存在，我们可以使用 IFERROR 公式，做处理<blockquote><p>=IFERROR(参数1， 参数2 错误信息)</p></blockquote></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Office </category>
+          
+          <category> excel </category>
+          
+          <category> VLOOKUP函数 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> excel函数 </tag>
+            
+            <tag> 关联表查询 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随笔</title>
+      <link href="/2021/10/15/%E9%9A%8F%E7%AC%94/"/>
+      <url>/2021/10/15/%E9%9A%8F%E7%AC%94/</url>
+      
+        <content type="html"><![CDATA[<p>可能自己脑子进水了，临近考试却看不进去书，无法让自己平静下来。还有一个多月就要去成都考试了，与其说是考试到不如说去旅游，一点底气都没有。既然没有心情学习，那就看看代码。自己就搭建一个博客放松一下，后面还可以把学习的总结放在博客里。那就开干吧，网上搜索一通，最后定下来用Hexo框架。个人博客网站就这样搭建好了。</p><h2 id="以后怎么做"><a href="#以后怎么做" class="headerlink" title="以后怎么做"></a>以后怎么做</h2><p>回想大学期间电脑安装了各种开发软件，给人一种很牛的感觉，其实安装后就没怎么使用过。自己还有一点小强迫症，电脑稍微卡了一点就要重装系统，然后开发软件也重新安装一遍，浪费了好多时间。由于学习不知道总结和积累，自身能力止步不前，都说学习如逆水行舟不进则退，更何况软件开发这个行业。我要改变自己，那就从这个博客开始吧！那就自己个要求：</p><ul><li>好好使用这个博客</li><li>多思考多总结多积累</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+          <category> 记事 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> 记事 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
