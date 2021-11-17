@@ -4,11 +4,40 @@
   
     
     <entry>
+      <title>概率问题</title>
+      <link href="/2021/11/18/%E6%A6%82%E7%8E%87%E9%97%AE%E9%A2%98/"/>
+      <url>/2021/11/18/%E6%A6%82%E7%8E%87%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="两人同组问题"><a href="#两人同组问题" class="headerlink" title="两人同组问题"></a>两人同组问题</h2><p>一静一动<br>一静：将其中一个人固定<br>一动：将另一个人和他去匹配</p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwinkbkuz3j30jx08m0vj.jpg" alt="image.png"></p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwinovbjulj30ln08kgpc.jpg" alt="image.png"></p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwinrdkqffj30kb042751.jpg" alt="image.png"></p><blockquote><p>从反面考虑，要保证3次抽的数字之积不是5的倍数，只需要保证三次抽的数字不保函5和10。0.8X0.8X0.8 答案C</p></blockquote><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwio0mzrbmj30kf0bj0xa.jpg" alt="image.png"></p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwio7h2b95j30kq0aq77t.jpg" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考公 </category>
+          
+          <category> 行测 </category>
+          
+          <category> 数量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>排列组合</title>
       <link href="/2021/11/16/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88/"/>
       <url>/2021/11/16/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88/</url>
       
-        <content type="html"><![CDATA[<h2 id="基本排列组合问题："><a href="#基本排列组合问题：" class="headerlink" title="基本排列组合问题："></a>基本排列组合问题：</h2><p>①两个原理：  </p><ul><li>加法原理： 分类则加 -&gt; 每一类中的每一类方法都可以达到目的  </li><li>乘法原理： 分步则乘</li></ul><p>②排列组合：  </p><ul><li>排列：有序排列  </li><li>组合：无序组合</li></ul><p>③计算公式：</p><h2 id="高级排列组合问题："><a href="#高级排列组合问题：" class="headerlink" title="高级排列组合问题："></a>高级排列组合问题：</h2><p>①分组问题：  </p><ul><li><p>元素不同，组不同：一定不要乘Ann<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhezrjrzkj30gl09xjti.jpg" alt="image.png"></p></li><li><p>元素不同，组相同：平均分组法，一定要除Ann<br>如6本<code>不同</code>的书，<code>平均分</code>成3组 </p></li><li><p>元素相同，组不同：用插板法解题（把M个元素分成N组，每组至少1个元素，则有C(N-1)(M-1) 个分发）<br>eg：把7支<code>完全相同</code>的铅笔分给<code>甲、乙、丙</code>3人，<code>每人至少1支</code>，有多少分发</p><blockquote><p>7支笔中有六个空，插入两个板子，即可以将笔分为三组。</p></blockquote></li></ul><p>②错位排序：记住就行  </p><ul><li>3人 — 2种  </li><li>4人 — 9种  </li><li>5人 — 44种</li></ul><p>③相邻问题： 捆绑法<br>不相邻问题： 插空法</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhdhl1qjxj30kb05j41a.jpg" alt="image.png"></p><blockquote><p>每个车站都可以是起始车站，所以每个车站都可以发往六个车站。10 * 9 - 7 * 6 = 48，答案C</p></blockquote><p>例题2：<br>把20个苹果分给3个小朋友，每人至少分4个，可有多少种分法  </p><blockquote><p>用插板法。首先给没有小朋友3个苹果，剩下11个苹果。此时有10个空，插入两个板子可以分成3组。答案45</p></blockquote><p>把20个苹果分给3个小朋友，可有多少种分法  </p><blockquote><p>先给每个小朋友分-1苹果，此时有23个苹果。此时有22个空，插入两个板子可以分成3组。答案210</p></blockquote><p>例题3：<code>错位排序</code><br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhgbpt4b4j310c06cjtd.jpg" alt="image.png"></p><blockquote><p>3人 — 2种  4人 — 9种  5人 — 44种</p></blockquote><p>例题4：相邻问题（捆绑法）<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhgl6qb19j30kz07hwhv.jpg" alt="image.png"></p><p>例题5：不相邻问题（插空法）<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhgsmp9xtj30l3048q3j.jpg" alt="image.png"></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="基本排列组合问题："><a href="#基本排列组合问题：" class="headerlink" title="基本排列组合问题："></a>基本排列组合问题：</h2><p>①两个原理：  </p><ul><li>加法原理： 分类则加 -&gt; 每一类中的每一类方法都可以达到目的  </li><li>乘法原理： 分步则乘</li></ul><p>②排列组合：  </p><ul><li>排列：有序排列  </li><li>组合：无序组合</li></ul><p>③计算公式：</p><h2 id="高级排列组合问题："><a href="#高级排列组合问题：" class="headerlink" title="高级排列组合问题："></a>高级排列组合问题：</h2><p>①分组问题：  </p><ul><li><p>元素不同，组不同：一定不要乘Ann<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhezrjrzkj30gl09xjti.jpg" alt="image.png"></p></li><li><p>元素不同，组相同：平均分组法，一定要除Ann(n是分的组数)<br>如6本<code>不同</code>的书，<code>平均分</code>成3组 </p></li><li><p>元素相同，组不同：用插板法解题（把M个元素分成N组，每组至少1个元素，则有C(N-1)(M-1) 个分发）<br>eg：把7支<code>完全相同</code>的铅笔分给<code>甲、乙、丙</code>3人，<code>每人至少1支</code>，有多少分发</p><blockquote><p>7支笔中有六个空，插入两个板子，即可以将笔分为三组。</p></blockquote></li></ul><p>②错位排序：记住就行  </p><ul><li>2人 — 1种</li><li>3人 — 2种  </li><li>4人 — 9种  </li><li>5人 — 44种</li><li>6人 — 265种</li></ul><p>③相邻问题： 捆绑法<br>不相邻问题： 插空法</p><blockquote><p>插空法解题步骤：  </p></blockquote><ol><li>将不相邻的元素取出   </li><li>将其他元素排好  </li><li>将互不相邻的元素插入空中</li></ol><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhdhl1qjxj30kb05j41a.jpg" alt="image.png"></p><blockquote><p>每个车站都可以是起始车站，所以每个车站都可以发往六个车站。10 * 9 - 7 * 6 = 48，答案C</p></blockquote><p>例题2：<br>把20个苹果分给3个小朋友，每人至少分4个，可有多少种分法  </p><blockquote><p>用插板法。首先给没有小朋友3个苹果，剩下11个苹果。此时有10个空，插入两个板子可以分成3组。答案45</p></blockquote><p>把20个苹果分给3个小朋友，可有多少种分法  </p><blockquote><p>先给每个小朋友分-1苹果，此时有23个苹果。此时有22个空，插入两个板子可以分成3组。答案210</p></blockquote><p>例题3：<code>错位排序</code><br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhgbpt4b4j310c06cjtd.jpg" alt="image.png"></p><blockquote><p>3人 — 2种  4人 — 9种  5人 — 44种</p></blockquote><p>例题4：相邻问题（捆绑法）<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhgl6qb19j30kz07hwhv.jpg" alt="image.png"></p><p>例题5：不相邻问题（插空法）<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwhgsmp9xtj30l3048q3j.jpg" alt="image.png"></p><p><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwi6ihtnrdj310e0ipjyo.jpg" alt="image.png"></p><p>例题6：<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwi66r3ydnj30yb0ecgqd.jpg" alt="image.png"></p><blockquote><p>A有4种做法，则B有两种</p></blockquote><p>例题7：<br><img src="http://tva1.sinaimg.cn/large/005SoUZ5ly1gwi6c68zbjj31180ab7da.jpg" alt="image.png"></p><blockquote><p>1.求出全部的情况数，2.将甲乙在一起的情况去除 - A33</p></blockquote><blockquote></blockquote>]]></content>
       
       
       <categories>
