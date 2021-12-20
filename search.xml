@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Linux用户管理</title>
+      <link href="/2021/12/19/Linux%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/"/>
+      <url>/2021/12/19/Linux%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="用户新建和删除"><a href="#用户新建和删除" class="headerlink" title="用户新建和删除"></a>用户新建和删除</h2><p>1、 新建用户</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">useradd 用户名</span><br></pre></td></tr></table></figure><p>2、 修改用户密码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd 用户名</span><br></pre></td></tr></table></figure><p>3、 删除用户以及</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">userdel -r 用户名</span><br></pre></td></tr></table></figure><h2 id="用户列表和用户组"><a href="#用户列表和用户组" class="headerlink" title="用户列表和用户组"></a>用户列表和用户组</h2><p>1、用户列表文件：/etc/passwd/</p><p>2、用户组列表文件：/etc/group</p><p>3、查看系统中有哪些用户：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cut -d : -f 1 /etc/passwd</span><br></pre></td></tr></table></figure><p>4、查看可以登录系统的用户：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /etc/passwd | grep -v /sbin/nologin | cut -d : -f 1</span><br></pre></td></tr></table></figure><p>5、查看用户属于哪个组<br>groups命令可以查看某个用户所属的用户组<br>groups 用户名</p><h2 id="ssh无法用密码连接服务器"><a href="#ssh无法用密码连接服务器" class="headerlink" title="ssh无法用密码连接服务器"></a>ssh无法用密码连接服务器</h2><p>/etc/ssh/sshd_config 文件中，在初始化时就被添加了一行禁止密码登录的配置：<br>PasswordAuthentication no<br>使用vim编辑配置文件将其改为：<br>PasswordAuthentication yes<br>即可使用密码进行ssh登录了。<br><a href="https://www.cnblogs.com/wangsongbai/p/13403795.html">https://www.cnblogs.com/wangsongbai/p/13403795.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 运维 </category>
+          
+          <category> centos </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux用户管理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>centos安装mysql</title>
       <link href="/2021/12/03/centos%E5%AE%89%E8%A3%85mysql/"/>
       <url>/2021/12/03/centos%E5%AE%89%E8%A3%85mysql/</url>
